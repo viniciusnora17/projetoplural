@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110px;
+    
+}
+
+#logo{
+    width: 95px;
+}
+
+#logo-texto{
+    width: 130px;
+    margin-bottom: 55px;
+   
+}
+
+.container-logo{
+    width: 400px;
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.hiperlink{
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#carrossel{
+    position: relative;
+}
+
+.img-carrossel{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.text-carrossel{
+    position: absolute;
+    font-weight: bold;   
+    font-family: "Inter", sans-serif;
+    cursor: pointer;
+    color: black;
+    left: 1040px;
+    bottom: 300px;
+}
+
+#sobre-nos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img-sobre-nos{
+    width: 25vw;
+    display: flex;
+    
+}
+
+.sobre-nos-textos{
+    width: 50px;
+}
+
+.sobre-nos-h1{
+    margin-left: 20px;
+}
+
+#paragrafo-sobre-nos{
+    width: 450px;
+}
+
+#all-text-sobre-nos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Inter", sans-serif;
+
+}
+
+.sobre-nos-nomes{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.sobre-nos-silas > h3{
+    
+}
+
+
+
+
+
