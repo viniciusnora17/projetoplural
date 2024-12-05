@@ -3,6 +3,7 @@
 *{ 
     margin: 0;
     padding: 0;
+   
     
 }
 
@@ -16,20 +17,19 @@
     justify-content: space-evenly;
     align-items: center;
     height: 110px;
-    background-color: #fff; 
+    background-color: white; 
     z-index: 1000;   
 
 }
 
 #logo{
     width: 95px;
-    cursor: pointer;
 }
 
 #logo-texto{
     width: 130px;
     margin-bottom: 55px;
-    cursor: pointer;
+   
 }
 
 .container-logo{
@@ -49,81 +49,70 @@
     font-weight: bold;
     color: black;
     font-size: 15px;
-
 }
 
 .hiperlink:hover{
     color: rgb(92, 91, 91);
 }
 
-
-#carrossel{
-    position: relative;
+.titulo-contato{
+    font-size: 30px;
 }
 
-.img-carrossel{
-    width: 70vw;
-    height: 100vh;
+#container-contatos{
+    background-color: rgb(247, 242, 237);
+    height: 93.8vh;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Inter", sans-serif;
+}
+
+#endereco{
+    text-align: center;
+    width: 260px;
+    font-size: 18px;
+}
+
+.endereco-contatos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.midias-sociais{
+    width: 30px;
+}
+
+#midias{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
-    margin-top: -10px;
+    flex-direction: column;
+    gap: 20px;
+
 }
 
-.text-carrossel{
-    position: absolute;
-    font-weight: bold;   
-    font-family: "Inter", sans-serif;
-    cursor: pointer;
-    color: black;
-    left: 1040px;
-    bottom: 250px;
-}
-
-#sobre-nos{
-    margin-top: 50px;
+.icones-contatos{
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 3px;
+}
+
+.icon{
+    font-size: 30px;
+}
+
+.hyperlink-icon{
+    text-decoration: none;
+    color: black;
     
 }
-
-.img-sobre-nos{
-    width: 25vw;
-    display: flex;
-    
-}
-
-.sobre-nos-textos{
-    width: 50px;
-}
-
-.sobre-nos-h1{
-    margin-left: 20px;
-}
-
-#paragrafo-sobre-nos{
-    width: 450px;
-}
-
-#all-text-sobre-nos{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-family: "Inter", sans-serif;
-
-}
-
-.sobre-nos-nomes{
-    display: flex;
-    gap: 20px;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
-#container-footer{
-    
-}
-
 
 
