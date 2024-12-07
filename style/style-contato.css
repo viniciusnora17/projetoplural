@@ -24,12 +24,13 @@
 
 #logo{
     width: 95px;
+    cursor: pointer;
 }
 
 #logo-texto{
     width: 130px;
     margin-bottom: 55px;
-   
+    cursor: pointer;
 }
 
 .container-logo{
@@ -60,7 +61,7 @@
 }
 
 #container-contatos{
-    background-color: rgb(247, 242, 237);
+    background-color: rgb(247, 244, 241);
     height: 93.8vh;
     margin-top: 40px;
     display: flex;
@@ -71,6 +72,8 @@
 
 #endereco{
     text-align: center;
+    text-decoration: none;
+    color: black;
     width: 260px;
     font-size: 18px;
 }
