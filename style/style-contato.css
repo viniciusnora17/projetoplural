@@ -25,6 +25,7 @@
 #logo{
     width: 95px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 #logo-texto{
