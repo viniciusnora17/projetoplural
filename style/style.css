@@ -224,3 +224,130 @@
 #copyright > p{
     font-size: 12px;
 }
+
+
+@media(max-width: 500px){
+
+    body{
+        height: 100px;
+    }
+
+    #header{
+        width: 430px;
+        background-color: #fff;
+        display: flex;
+        height: 80px;
+        
+    }
+
+    .container-logo{
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    #logo{
+        width: 60px;
+        margin-bottom: 15px;
+    }
+
+    #logo-texto{
+        width: 65px;
+    }
+
+    .img-carrossel{
+        text-align: center;
+        height: 250px;
+        width: 80%;
+        margin-top: 90px;
+       
+    }
+
+    .hiperlink{
+        font-size: 11px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .text-carrossel{
+        position: absolute;
+        left: 355px;
+        top: 120px;
+        font-size: 9px;
+    }
+
+    #all-text-sobre-nos{
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 300px;
+
+
+    }
+    #sobre-nos{
+        margin-top: 40px;
+    }
+    
+    .big-text{
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
+    .img-sobre-nos{
+        margin-left: 100px;
+        width: 200px;
+        height: 250px;
+    }
+
+    #container-footer{
+        width: 75%;
+        margin: auto;
+    }
+
+    #conteudo-footer{
+        width: 80%;
+    }
+
+    .itens-footer{
+        width: 30%;
+    }
+
+    .logo-footer{
+        width: 80px;
+        height: 17px;
+    }
+
+    .icons{
+        font-size: 20px;
+        text-align: center;
+        width: 20px;
+    }
+
+    .hiperlink-footer{
+        font-size: 10px !important;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .privacy-politics{
+        display: flex;
+    }
+
+    #textos-footer{
+        width: 100%;
+        display: flex;
+        height: 65px;
+    }
+
+    #copyright{
+        text-align: center;
+        margin: auto;
+        margin-left: 100px;
+    }
+
+    .text-copyright{
+        font-size: 10px !important;
+    }
+    
+}
