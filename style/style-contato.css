@@ -166,12 +166,11 @@
 }
 
 #container-footer{
-    height: 20vh;
-    margin-top: 50px;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    background-color: rgb(241, 250, 250);
 }
 
 .traco{
@@ -182,12 +181,15 @@
 }
 
 #conteudo-footer{
-    height: 110px;
+    height: 190px;
     background-color: rgb(241, 250, 250);
 }   
 
+#face{
+    margin-top: 3px;
+}
+
 .principal-footer{
-  
     width: 1343px;
 }
 
@@ -203,10 +205,15 @@
 }
 
 .icons{
-    font-size: 25px;
+    font-size: 22px;
     cursor: pointer;
     display: flex;
     gap: 20px;
+}
+
+#insta{
+    font-size: 25px;
+    margin-top: 3px;
 }
 
 
@@ -217,6 +224,7 @@
     font-size: 12px;
     gap: 20px;
     margin-top: 30px;  
+    background-color: rgb(241, 250, 250);
     height: 100px;
    
 }
@@ -227,6 +235,7 @@
     margin-left: 70px;
     font-weight: bolder;
     color: rgb(121, 120, 120);
+    
     
 }
 
@@ -266,9 +275,24 @@ footer{
     background-color: rgb(241, 250, 250);
 }
 
-#copyright > p{
-    font-size: 12px;
+#copyright{
+    background-color: rgb(241, 250, 250);
 }
 
+#copyright > p{
+    font-size: 12px;
+    
+}
 
+.hiperlink-footer:hover{
+    color: rgb(46, 46, 46);
+}
+
+#face:hover{
+    color: rgb(46, 46, 46);
+}
+
+#insta:hover{
+    color: rgb(46, 46, 46);
+}
 
