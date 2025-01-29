@@ -57,3 +57,49 @@
 .hiperlink:hover{
     color: rgb(92, 91, 91);
 }
+
+
+/* RESPONSIVIDADE */
+@media(max-width: 480px){
+
+    body{
+        height: 100%;
+    }
+
+    #header{
+        width: 100%;
+        background-color: #fff;
+        display: flex;
+        height: 15%;
+    }
+
+    .container-logo{
+        display: flex;
+    }
+    
+    #logo{
+        width: 60px;
+        margin-bottom: 15px;
+    }
+    
+    #logo-texto{
+        margin-top: 30px;
+        width: 70px;
+        height: 15px;
+    }
+
+    .hiperlink{
+        font-size: 11px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navbar{
+        margin-right: 10px;
+        width: 200px;
+        display: flex;
+        gap: 7px;
+        justify-content: space-around;
+    }
+}

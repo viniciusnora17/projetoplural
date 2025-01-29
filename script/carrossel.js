@@ -23,4 +23,7 @@ botaoProximo.addEventListener('click', () => {
 
         imagemCarrossel.src = imagens[indiceAtual - 1];
     }
+
+    
+    imagemCarrossel.style.height = "auto"; // ou uma altura fixa, se necessário
 });
