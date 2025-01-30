@@ -1,6 +1,7 @@
 const imagens = [
-    "img/cristiano.jpg",
-    "img/cris.jpeg"
+    "img/foto-carrossel-casa.png",
+    "img/img-carrossel.jpg",
+    "img/img-oab-depois.jpg"
 ];
 
 const imagemCarrossel = document.querySelector('.img-carrossel');
@@ -25,5 +26,7 @@ botaoProximo.addEventListener('click', () => {
     }
 
     
-    imagemCarrossel.style.height = "auto"; // ou uma altura fixa, se necessário
+    imagemCarrossel.style.height = "auto"; 
+
+    
 });
