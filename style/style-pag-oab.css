@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", serif;
+}
+
+#header{
+
+    position: fixed; 
+    top: 0;          
+    left: 0;         
+    width: 100%;    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110px;
+    background-color: #fff; 
+    z-index: 1000;   
+
+}
+
+#logo{
+    width: 95px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#logo-texto{
+    width: 130px;
+    margin-bottom: 55px;
+    cursor: pointer;
+}
+
+.container-logo{
+    width: 400px;
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.hiperlink{
+    text-decoration: none;
+    font-family: "Noto Sans", serif;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
+
+}
+
+.hiperlink:hover{
+    color: rgb(92, 91, 91);
+}

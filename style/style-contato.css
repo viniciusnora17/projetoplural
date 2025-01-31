@@ -412,6 +412,7 @@ footer{
         width: 90px;
         height: 17px;
     }
+
     
     #face{
         margin-top: 5px;
@@ -426,7 +427,8 @@ footer{
      }
  
      .traco{
-         width: 100%;    
+         width: 100%;
+         margin-top: 30%; 
      } 
  
      .logo-footer{
@@ -436,9 +438,9 @@ footer{
  
      .icons{
          font-size: 20px;
-         text-align: center;
+         display: flex;
          width: 20px;
-         margin-top: 1%;
+         
      }
 
     .hiperlink-footer{
@@ -448,7 +450,7 @@ footer{
     }
     
     #face{
-        font-size: 18px !important;
+        font-size: 19px !important;
     }
     
     .footer-header{
@@ -474,7 +476,7 @@ footer{
 
     #insta{
         font-size: 19px !important;
-        margin-top: 0.3em;
+      margin-top: 0.2em !important;
     }
     
     .text-copyright{

@@ -9,3 +9,7 @@ function redirectInsta(){
 function redirectFace(){
     location.replace("https://www.facebook.com/pluralconstroe?locale=pt_BR")
 }
+
+function paginaOab(){
+    location.replace("projeto-oab.html")
+}

@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: "Noto Sans", serif;
+    max-width: 100%;
  
 }
 
@@ -94,6 +95,7 @@
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    margin-left: 10%;
 }
 
 .big-text{
@@ -137,6 +139,7 @@
     flex-direction: column;
     justify-content: space-around;
     font-family: "Inter", sans-serif;
+    margin-right: 100px;
 }
 
 .sobre-nos-nomes{
@@ -169,14 +172,14 @@
 }   
 
 .principal-footer{
-  
     width: 1343px;
 }
 
 .itens-footer{
-    width: 1343px;
+    width: 100vw;
     display: flex;
-    justify-content: space-around;
+    margin-left: 1%;
+    justify-content: space-evenly;
 }
 
 .logo-footer{
@@ -331,56 +334,54 @@
     
     /* SOBRE-NOS */
 
-    #sobre-nos{
-        margin-top: 18%;
-        width: 90% !important;
-    
-    }
+
 
     .titulo-sobrenos{
-        font-size: 1.1em;
-        width: 50%;
-    }
-
-    #all-text-sobre-nos{
-        height: 250px;
-        background-color: green;
+        font-size: 1em;
+        width: 30%;
     }
 
     .sobre-nos-silas > h3{
-        font-size: 1em !important;
-        width: 55%;
+        font-size: 0.8em !important;
+        width: 100px;
 
     }
 
     .sobre-nos-samuel > h3{
-        font-size: 1em !important;
-        width: 65%;
+        font-size: 0.8em !important;
+        width: 120px;
       
     }
 
     .sobre-nos-silas > p{
-        font-size: 0.8em !important;
+        font-size: 0.7em !important;
     }
 
     .sobre-nos-samuel > p{
-        font-size: 0.8em !important;
+        font-size: 0.7em !important;
     }
     
     .big-text{
-        font-size: 0.7em !important;
-        width: 35% !important;
-        margin-bottom: 10px;
-        background-color: green;
-    }
-
-    .img-sobre-nos{
-        width: 70% !important;
-        margin-left: -5% !important;
-        height: 15em;
+        font-size: 0.68em !important;
+        width: 40% !important;
+        
       
     }
 
+    .img-sobre-nos{
+        height: 36vh;
+       
+    }
+
+    #sec-sobrenos{
+        height: 40vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100vw;
+        margin-left: 40px;
+        
+    }
     
 
     /* FOOTER */
@@ -391,11 +392,12 @@
        justify-content: space-around !important;
        gap: 25%;
        width: 70vw !important;
-       margin-left: 5%;
+       /* margin-left: 15% !important; */
     }
 
     .traco{
-        width: 100%;    
+        width: 90% !important; 
+        margin-top: 50px;   
     } 
 
     .logo-footer{
@@ -420,12 +422,16 @@
         font-size: 19px;
     }
 
-
     .footer-header{
         display: flex;
         justify-content: center !important;
         gap: 5px;
         margin-right: 40px;
+    }
+
+    .privacy-politics{
+        margin-left: -1;
+        
     }
 
     #textos-footer{
