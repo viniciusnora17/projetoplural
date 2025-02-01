@@ -8,6 +8,15 @@
     
 }
 
+html {
+    overflow-x: hidden; /* Impede qualquer overflow horizontal */
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
 #header{
 
     position: fixed; 
@@ -66,7 +75,6 @@
     justify-content: space-evenly;
     align-items: center;
     display: flex;
-    
 }
 
 .container-text{
@@ -78,6 +86,7 @@
 .escritorio{
     height: 18em;
     margin-bottom: 1.5em;
+    cursor: pointer;
 }
 
 .titulo-projeto{
@@ -174,8 +183,6 @@
     height: 1px;
 }
 
-
-
 #conteudo-footer{
     height: 110px;
 }   
@@ -194,10 +201,11 @@
 .logo-footer{
     width: 175px;
     cursor: pointer;
+    margin-left: 20px;
 }
 
 .icons{
-    font-size: 25px;
+    font-size: 28px;
     cursor: pointer;
     display: flex;
     gap: 20px;
@@ -205,7 +213,7 @@
 
 
 #face{
-    font-size: 22px;
+    font-size: 24px !important;
 }
 
 #textos-footer{
@@ -326,5 +334,146 @@
         gap: 7px;
         justify-content: space-around;
     }
+
+    #projetos{
+        margin-top: 100px;
+    }
+
+    .traco-principal{
+        background-color: rgb(119, 119, 119);
+        margin-bottom: 20%;
+    }
+
+    #fotos-projetos{
+       
+        max-width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 100vh;
+    }
+    
+    .terreno-img{
+        height: 20vh;
+    }
+
+    .primeira-img{
+        height: 225px;
+    }
+
+    .oab{
+        width: 300px;
+    }
+
+    .obra-terreno{
+        width: 300px;
+        height: 130px;
+    }
+
+    .escritorio{
+        width: 300px;
+        height: 200px;
+    }
+
+    #section-fotos{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .terreno{
+        width: 300px;
+        height: 220px;
+    }
+
+    .ft-interior-casa{
+        width: 300px;
+        height: 220px;
+    }
+
+    .calcada{
+        width: 120px;
+        height: 220px;
+    }
+
+    .interior-img{
+        height: 220px;
+    }
+
+    .itens-footer{
+        display: flex ;
+        justify-content: space-around !important;
+        gap: 25%;
+        width: 70vw !important;
+        /* margin-left: 15% !important; */
+     }
+
+     .traco-principal{
+        background-color: rgb(95, 95, 95);
+        width:  90%;
+        height: 1px;
+     }
+
+     .principal-footer{
+        width: 100%;
+     }
+     
+ 
+     .traco{
+         width: 90% !important; 
+     } 
+ 
+     .logo-footer{
+         width: 30vw;
+         height: 3vh;
+     }
+ 
+     .icons{
+         font-size: 20px;
+         text-align: center;
+         width: 20px;
+         margin-top: 1%;
+     }
+ 
+     .hiperlink-footer{
+         font-size: 10px !important;
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+     #face{
+         font-size: 19px;
+     }
+ 
+     .footer-header{
+         display: flex;
+         justify-content: center !important;
+         gap: 5px;
+         margin-right: 40px;
+     }
+ 
+     .privacy-politics{
+         margin-left: -1;
+         
+     }
+ 
+     #textos-footer{
+         width: 100%;
+         display: flex;
+         justify-content: space-evenly;
+         margin-right: 30px;
+         height: 65px;
+     }
+ 
+     #copyright{
+         text-align: center;
+         margin: auto;
+     }
+ 
+     .text-copyright{
+         font-size: 10px !important;
+     }
 }
 

@@ -13,3 +13,7 @@ function redirectFace(){
 function paginaOab(){
     location.replace("projeto-oab.html")
 }
+
+function redirectEscritorio(){
+    location.replace("contato.html")
+}

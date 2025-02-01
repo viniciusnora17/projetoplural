@@ -9,6 +9,15 @@
 
 }
 
+html {
+    overflow-x: hidden; /* Impede qualquer overflow horizontal */
+    width: 100%;
+}
+
+body {
+    width: 100%;
+}
+
 #header{
 
     position: fixed; 
