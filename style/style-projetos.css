@@ -6,15 +6,16 @@
     margin: 0;
     padding: 0;
     font-family: "Noto Sans", serif;
+    max-width: 100%;
 }
 
 html {
-    overflow-x: hidden; /* Impede qualquer overflow horizontal */
-    width: 100%;
+    overflow-x: hidden; 
+    max-width: 100%;
 }
 
 body {
-    width: 100%;
+    max-width: 100%;
 }
 
 #header{
@@ -313,7 +314,7 @@ body {
     }
 
     .navbar{
-        margin-right: 10px;
+        margin-right: 23px;
         width: 200px;
         display: flex;
         gap: 7px;
@@ -386,40 +387,32 @@ body {
     .interior-img{
         height: 220px;
     }
+    
 
-    .itens-footer{
-        display: flex ;
-        justify-content: space-around !important;
-        gap: 25%;
-        width: 70vw !important;
-        /* margin-left: 15% !important; */
-     }
 
-     .traco-principal{
-        background-color: rgb(95, 95, 95);
-        width:  90%;
-        height: 1px;
+    .logo-icons-container{
+        width: 0.1px;
+ 
      }
-
-     .principal-footer{
-        width: 100%;
-     }
-     
  
      .traco{
-         width: 90% !important; 
+         width: 80% !important; 
+         margin-bottom: -70px !important;   
      } 
  
-     .logo-footer{
-         width: 30vw;
-         height: 3vh;
-     }
  
      .icons{
          font-size: 20px;
          text-align: center;
          width: 20px;
          margin-top: 1%;
+         margin-left: -85vw;
+     }
+ 
+     .hiperlinks-footer{
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
      }
  
      .hiperlink-footer{
@@ -428,9 +421,6 @@ body {
          justify-content: space-between;
      }
  
-     #face{
-         font-size: 19px;
-     }
  
      .footer-header{
          display: flex;
@@ -439,9 +429,9 @@ body {
          margin-right: 40px;
      }
  
-     .privacy-politics{
-         margin-left: -1;
-         
+     .privacy-politics > a{
+         font-size: 10px;
+ 
      }
  
      #textos-footer{
@@ -455,10 +445,22 @@ body {
      #copyright{
          text-align: center;
          margin: auto;
+         margin-top: 35px;
      }
  
      .text-copyright{
          font-size: 10px !important;
      }
+
+     #face{
+        font-size: 0.1px !important;
+        color: white;
+     }
+
+     #insta{
+        font-size: 0.1px !important;
+        color: white;
+     }
+ 
 }
 

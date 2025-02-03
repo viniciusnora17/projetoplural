@@ -6,17 +6,17 @@
     margin: 0;
     padding: 0;
     font-family: "Noto Sans", serif;
-    
+    max-width: 100%;
  
 }
 
 html {
     overflow-x: hidden; /* Impede qualquer overflow horizontal */
-    width: 100%;
+    max-width: 100%;
 }
 
 body {
-    width: 100%;
+    max-width: 100%;
 }
 
 #header{
@@ -71,6 +71,7 @@ body {
     color: rgb(92, 91, 91);
 }
 
+
 #carrossel{
     position: relative;
 }
@@ -99,68 +100,63 @@ body {
     color: rgb(46, 46, 46);
 }
 
+/* SOBRE NOS*/
+
 #sobre-nos{
-    margin-top: 100px;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
-    margin-left: 12%;
+    align-items: center;
+    height: 65vh;
+    max-width: 100%;
+    gap: 25px;
 }
 
-.big-text{
-    width: 93%;
-    font-size: 1.2em;
-}
-
-.sobre-nos-silas > h3, .sobre-nos-samuel > h3{
-    font-size: 1.5em !important;
-}
-
-.sobre-nos-silas > p, .sobre-nos-samuel > p{
-    font-size: 1.2em;
-   
-}
-
-.sobre-nos-silas > p{
-    width: 27.5em !important;
-
-}
-
-.titulo-sobrenos{
-    font-size: 2em;
-}
 
 .img-sobre-nos{
-    width: 25vw;
+    width: 26% !important;
+}
+
+.title-sobrenos{
+    font-size: 3em;
+}
+
+.paragrafo-sobrenos{
+    font-size: 1.1em;
+    text-align: left;
+
+    width: 350px;
+}
+
+.textos-sobre-nos{
+    height: 55vh;
+    justify-content: space-around;
     display: flex;
-    
-}
-.sobre-nos-textos{
-    width: 50px;
+    flex-direction: column;
 }
 
-.sobre-nos-h1{
-    margin-left: 20px;
-}
+.arq-eng{
 
-#paragrafo-sobre-nos{
-    width: 450px;
-}
-
-#all-text-sobre-nos{
+    height: 130px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    font-family: "Inter", sans-serif;
-    margin-right: 100px;
 }
 
-.sobre-nos-nomes{
-    display: flex;
-    width: 35%;
-    height: 35%;
-    justify-content: space-around;
-    flex-direction: column;
-    margin-left: 20px;
+.silas > h3{
+    font-size: 1.5em;
+}
+
+.samuel > h3{
+    font-size: 1.5em;
+}
+
+.silas > p{
+    font-size: 1.1em;
+}
+
+.samuel > p{
+    font-size: 1.1em;
 }
 
 /* FOOTER */
@@ -276,14 +272,15 @@ body {
     }
 
     #header{
-        width: 100%;
+        max-width: 480px;
         background-color: #fff;
         display: flex;
-        height: 15%;
+        height: 103px;
     }
 
     .container-logo{
         display: flex;
+        
     }
     
     #logo{
@@ -305,7 +302,7 @@ body {
     }
 
     .navbar{
-        margin-right: 10px;
+        margin-right: 24px;
         width: 200px;
         display: flex;
         gap: 7px;
@@ -329,77 +326,70 @@ body {
     
     /* SOBRE-NOS */
 
-    .titulo-sobrenos{
-        font-size: 1em;
-        width: 30%;
-    }
+    #sobre-nos{
 
-    .sobre-nos-silas > h3{
-        font-size: 0.8em !important;
-        width: 100px;
+        margin-left: -40px !important;
+        width: 100%;
+        display: flex;
 
-    }
-
-    .sobre-nos-samuel > h3{
-        font-size: 0.8em !important;
-        width: 120px;
-      
-    }
-
-    .sobre-nos-silas > p{
-        font-size: 0.7em !important;
-    }
-
-    .sobre-nos-samuel > p{
-        font-size: 0.7em !important;
-    }
-    
-    .big-text{
-        font-size: 0.63em !important;
-        width: 30% !important;
     }
 
     .img-sobre-nos{
-        height: 33vh;
-        
+        width: 400px !important;
+        height: 300px;
     }
 
-    #sec-sobrenos{
-        height: 40vh;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        width: 100vw;
-        margin-left: 60px;
-        
+    .title-sobrenos{
+        font-size: 26px;
+       
     }
+
+    .arq-eng{
+        width: 150px !important;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .paragrafo-sobrenos{
+        font-size: 13px;
+        width: 180px;
+    }
+
+    .textos-sobre-nos{
+        width: 250px;
+        height: 300px;
+    
+    }
+
+    .silas > h3{
+        font-size: 18px;
+    }
+
+    .samuel > h3{
+        font-size: 18px;
+    }
+
+    .silas > p{
+        font-size: 14px;
+    }
+
+    .samuel > p{
+        font-size: 14px;
+    }
+    
     
 
     /* FOOTER */
     
 
     .logo-icons-container{
-        display: flex !important;
-        justify-content: center !important;
-        align-items: center !important;
-        margin-top: 3em;
-        margin-left: 22vw;
-       
-    }
+       width: 0.1px;
 
-    .img-footer{
-        width: 200px;
-        margin-left: 100vw;
-    }
-
-    #footer-logo{
-        width: 92px;
-        height: 28px;
     }
 
     .traco{
         width: 80% !important; 
-        margin-top: 100px;   
+        margin-top: 3px !important;   
     } 
 
 
@@ -423,9 +413,6 @@ body {
         justify-content: space-between;
     }
 
-    #face{
-        font-size: 19px;
-    }
 
     .footer-header{
         display: flex;
