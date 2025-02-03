@@ -157,9 +157,6 @@ body {
     gap: 3px;
 }
 
-.icon{
-    font-size: 30px;
-}
 
 .hyperlink-icon{
     text-decoration: none;
@@ -180,123 +177,84 @@ body {
     
 }
 
-#container-footer{
-    height: 10vh;
+.logo-icons-container{
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    gap: 28em;
+}
+
+.icons{
+    cursor: pointer;
+    font-size: 23px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(241, 250, 250);
+    margin-right: 30px;
+    gap: 15px;
+}
+
+#container-footer{
+    height: 20vh;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+ 
 }
 
 .traco{
     background-color: rgb(119, 119, 119);
     width: 1000px;
+    margin: auto;
     height: 1px;
-  
+    margin-top: 6em;
 }
 
-#conteudo-footer{
-    height: 190px;
-    background-color: rgb(241, 250, 250);
-}   
-
-#face{
-    margin-top: 3px;
-}
-
-.principal-footer{
-    width: 1343px;
-}
-
-.itens-footer{
-    width: 1343px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.logo-footer{
+#footer-logo{
     width: 175px;
     cursor: pointer;
-}
 
-.icons{
-    font-size: 24px;
-    cursor: pointer;
-    display: flex;
-    gap: 20px;
-    margin-right: 60px !important; 
-    
-}
-
-#insta{
-    margin-top: 3px;
-}
-
-
-#textos-footer{
-    display: flex;
-    justify-content: space-around;
-    font-size: 12px;
-    gap: 10px;
-    margin-top: 30px;  
-    background-color: rgb(241, 250, 250);
-    height: 100px;
-   
-}
-
-.privacy-politics{
-    display: flex;
-    gap: 15px;
-    margin-left: 70px;
-    font-weight: bolder;
-    color: rgb(121, 120, 120);
-    
-    
 }
 
 .privacy-politics > a{
-    font-size: 14px;
-    height: 13px;
-    cursor: pointer;
-    
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;  
+    color: rgb(121, 120, 120);  
+    font-weight: bold;
 }
 
-
-.footer-header{
-    font-weight: bolder;
+.hiperlinks-footer{
     display: flex;
+    justify-content: space-evenly;
     gap: 15px;
+    margin-top: 10px;
 }
 
-.footer-header > a{
+.hiperlink-footer{
     text-decoration: none;
     color: rgb(121, 120, 120);
-    font-size: 14px;
-    height: 13px;
+    font-weight: bold;
+}
+
+.footer-header{
+    width: 18%;
+    display: flex;
+    justify-content: space-around;    
 }
 
 #copyright{
     height: 80px;
-    margin-top: 10px;
+    margin-top: 7%;
     justify-content: center;
     display: flex;
-    font-family: "Noto Sans", serif;
+    font-family: "Poppins", sans-serif;
     color: rgb(121, 120, 120);
     font-weight: bold;
-
-}
-
-footer{
-    background-color: rgb(241, 250, 250);
-}
-
-#copyright{
-    background-color: rgb(241, 250, 250);
 }
 
 #copyright > p{
-    font-size: 12px;
-    
+    font-size: 13px;
 }
 
 .hiperlink-footer:hover{
@@ -311,10 +269,6 @@ footer{
     color: rgb(46, 46, 46);
 }
 
-#endereco:hover{
-    color: rgb(61, 61, 61);
-}
-
 #nora{
     text-decoration: none;
     color: rgb(121, 120, 120);
@@ -323,7 +277,6 @@ footer{
 #nora:hover{
     color: rgb(46, 46, 46);
 }
-
 @media(max-width: 480px){
 
     body{
