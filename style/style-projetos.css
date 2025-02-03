@@ -287,7 +287,7 @@ body {
         width: 100%;
         background-color: #fff;
         display: flex;
-        height: 13%;
+        height: 15%;
     }
 
     .container-logo{
@@ -306,14 +306,14 @@ body {
     }
 
     .hiperlink{
-        font-size: 12px;
+        font-size: 11px;
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
     }
 
     .navbar{
-        margin-right: 25px;
+        margin-right: 10px;
         width: 200px;
         display: flex;
         gap: 7px;
