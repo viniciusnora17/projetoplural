@@ -328,15 +328,16 @@ body {
 
     #sobre-nos{
 
-        margin-left: -40px !important;
+        margin-left: -50px !important;
         width: 100%;
         display: flex;
+        height: 350px;
 
     }
 
     .img-sobre-nos{
         width: 400px !important;
-        height: 300px;
+        height: 260px;
     }
 
     .title-sobrenos{
@@ -389,7 +390,7 @@ body {
 
     .traco{
         width: 80% !important; 
-        margin-top: 3px !important;   
+        margin-top: 55px !important;   
     } 
 
 

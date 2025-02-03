@@ -284,25 +284,26 @@ body {
     }
 
     #header{
-        width: 100%;
+        max-width: 480px;
         background-color: #fff;
         display: flex;
-        height: 15%;
+        height: 103px;
     }
 
     .container-logo{
         display: flex;
+        
     }
     
     #logo{
-        width: 40%;
+        width: 60px;
         margin-bottom: 15px;
     }
     
     #logo-texto{
-        margin-top: 22%;
-        width: 45%;
-        height: 10%;
+        margin-top: 30px;
+        width: 70px;
+        height: 15px;
     }
 
     .hiperlink{
@@ -313,19 +314,13 @@ body {
     }
 
     .navbar{
-        margin-right: 10px;
+        margin-right: 24px;
         width: 200px;
         display: flex;
         gap: 7px;
         justify-content: space-around;
     }
 
-    .img-carrossel{
-        text-align: center;
-        height: 380px !important;
-        width: 100% ; 
-        margin-top: 90px;
-    }
 
     .titulo-mapa{
         font-size: 3em !important;
@@ -371,80 +366,76 @@ body {
         width: 25%;
     }
     
-    .logo-footer{
-        width: 90px;
-        height: 17px;
-    }
-
-    
-    #face{
-        margin-top: 5px;
-    }
-    
-    .itens-footer{
-        display: flex ;
-        justify-content: space-around !important;
-        gap: 25%;
-        width: 75vw !important;
-        margin-left: 5%;
+    .logo-icons-container{
+        width: 0.1px;
+ 
      }
  
      .traco{
-         width: 100%;
-         margin-top: 30%; 
+         width: 80% !important; 
      } 
  
-     .logo-footer{
-         width: 30vw;
-         height: 3vh;
-     }
  
      .icons{
          font-size: 20px;
-         display: flex;
+         text-align: center;
          width: 20px;
-         
+         margin-top: 1%;
+         margin-left: -85vw;
+     }
+ 
+     .hiperlinks-footer{
+         display: flex;
+         align-items: center;
+         justify-content: space-around;
+     }
+ 
+     .hiperlink-footer{
+         font-size: 10px !important;
+         display: flex;
+         justify-content: space-between;
+     }
+ 
+ 
+     .footer-header{
+         display: flex;
+         justify-content: center !important;
+         gap: 5px;
+         margin-right: 40px;
+     }
+ 
+     .privacy-politics > a{
+         font-size: 10px;
+ 
+     }
+ 
+     #textos-footer{
+         width: 100%;
+         display: flex;
+         justify-content: space-evenly;
+         margin-right: 30px;
+         height: 65px;
+     }
+ 
+     #copyright{
+         text-align: center;
+         margin: auto;
+         margin-top: 35px;
+     }
+ 
+     .text-copyright{
+         font-size: 10px !important;
      }
 
-    .hiperlink-footer{
-        font-size: 10px !important;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    #face{
-        font-size: 19px !important;
-    }
-    
-    .footer-header{
-        display: flex;
-        justify-content: center !important;
-        gap: 5px;
-        
-    }
-    
-    #textos-footer{
-        width: 70vw;
-        display: flex;
-        justify-content: space-evenly;
-        height: 65px;
-        
-    }
-    
-    #copyright{
-        text-align: center;
-        margin: auto;
-    
-    }
+     #face{
+        font-size: 0.1px !important;
+        color: white;
+     }
 
-    #insta{
-        font-size: 19px !important;
-      margin-top: 0.2em !important;
-    }
-    
-    .text-copyright{
-        font-size: 10px !important;
-    }
+     #insta{
+        font-size: 0.1px !important;
+        color: white;
+     }
 }
 
 
