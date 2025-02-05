@@ -315,13 +315,13 @@ body {
     }
 
     .navbar{
-        margin-right: 24px;
+        margin-right: 104px;
         width: 200px;
         display: flex;
         gap: 7px;
         justify-content: space-around;
     }
-    
+
     .paragrafo-carrossel{
         height: 160px;
     }
