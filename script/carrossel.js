@@ -1,56 +1,18 @@
-const imagens = [
-    "img/foto-carrossel-casa.png",
-    "img/img-carrossel.jpg",
-    "img/img-oab-depois.jpg"
-];
-
-const imagemCarrossel = document.querySelector('.img-carrossel');
-const botaoProximo = document.querySelector('.text-carrossel');
-
+const wrapper = document.querySelector('.carousel-wrapper');
+const imagens = document.querySelectorAll('.img-carrossel');
+const totalImagens = imagens.length;
 let indiceAtual = 0;
 
-botaoProximo.addEventListener('click', () => {
-    
+
+function trocarImagem() {
     indiceAtual++;
 
-    if (indiceAtual >= imagens.length + 1) {
-        indiceAtual = 0;
+    if (indiceAtual >= totalImagens) {
+        indiceAtual = 0; 
     }
 
-    if (indiceAtual === 0) {
-  
-        imagemCarrossel.src = "img/teste.jpg";
-    } else {
+    wrapper.style.transform = `translateX(-${indiceAtual * 100}%)`;
+}
 
-        imagemCarrossel.src = imagens[indiceAtual - 1];
-    }
 
-    
-    imagemCarrossel.style.height = "auto"; 
-
-  
-});
-
-let img = [
-    "img/foto-carrossel-casa.png",
-    "img/img-carrossel.jpg",
-    "img/img-oab-depois.jpg"
-];
-
-// Seleciona todas as imagens no carrossel
-const imagensCarrossel = document.querySelectorAll('.img-carrossel');
-
-window.addEventListener('resize', () => {
-    // Verifica se a largura da tela é menor ou igual a 480px
-    if (window.innerWidth <= 480) {
-        // Aplica o height fixo para telas pequenas
-        imagensCarrossel.forEach((imagem) => {
-            imagem.style.height = "360px";
-        });
-    } else {
-        // Para telas maiores, aplica o height fixo baseado na altura da primeira imagem
-        imagensCarrossel.forEach((imagem) => {
-            imagem.style.height = `${alturaImagem}px`;
-        });
-    }
-});
+setInterval(trocarImagem, 6000); 

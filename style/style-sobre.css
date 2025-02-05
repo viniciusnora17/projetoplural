@@ -68,16 +68,193 @@ body {
     color: rgb(92, 91, 91);
 }
 
+.titulo-sobre{
+    margin-top: 11%;
+    font-size: 62px;
+    text-align: center;
+    font-family: "Noto Sans", serif;
+    font-weight: 300;
+}
+
+.traco-principal{
+    background-color: rgb(119, 119, 119);
+    width: 80%;
+    height: 1px;
+    margin: auto;
+    margin-top: 4em;
+}
+
+#img-pai{
+    width: 350px !important;
+}
+
+.primeiro-container{
+    
+    margin-top: 20px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container-texto{
+    font-size: 1.2em;
+    width: 35%;
+    text-align: center;
+}
+
+.container-texto > h2{
+    font-size: 1.8em;
+}
+
+.segundo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 60vh;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.containersegundo-texto{
+    width: 40%;
+    font-size: 1.2em;   
+    text-align: center;
+}
+
+.containersegundo-texto > h2{
+    font-size: 1.8em;
+}
+
+.silas-samuel{
+    width: 400px;
+}
+
+.container{
+    
+    justify-content: space-evenly;
+    display: flex;
+    width: 63%;
+    height: 90%;
+}
+
+/* FOOTER */
+
+    .logo-icons-container{
+        display: flex;
+        justify-content: center;
+        width: 95%;
+        gap: 28em;
+    }
+    
+    .icons{
+        cursor: pointer;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 30px;
+        gap: 15px;
+    }
+    
+    #container-footer{
+        height: 20vh;
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    
+    .traco{
+        background-color: rgb(119, 119, 119);
+        width: 1000px;
+        margin: auto;
+        height: 1px;
+        margin-top: 6em;
+    }
+    
+    #footer-logo{
+        width: 175px;
+        cursor: pointer;
+    
+    }
+    
+    .privacy-politics > a{
+        font-size: 15px;
+        text-decoration: none;
+        cursor: pointer;  
+        color: rgb(121, 120, 120);  
+        font-weight: bold;
+    }
+    
+    .hiperlinks-footer{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 15px;
+        margin-top: 10px;
+    }
+    
+    .hiperlink-footer{
+        text-decoration: none;
+        color: rgb(121, 120, 120);
+        font-weight: bold;
+    }
+    
+    .footer-header{
+        width: 18%;
+        display: flex;
+        justify-content: space-around;    
+    }
+    
+    #copyright{
+        height: 80px;
+        margin-top: 7%;
+        justify-content: center;
+        display: flex;
+        font-family: "Poppins", sans-serif;
+        color: rgb(121, 120, 120);
+        font-weight: bold;
+    }
+    
+    #copyright > p{
+        font-size: 13px;
+    }
+    
+    .hiperlink-footer:hover{
+        color: rgb(46, 46, 46);
+    }
+    
+    #face:hover{
+        color: rgb(46, 46, 46);
+    }
+    
+    #insta:hover{
+        color: rgb(46, 46, 46);
+    }
+    
+    #nora{
+        text-decoration: none;
+        color: rgb(121, 120, 120);
+      }
+    
+    #nora:hover{
+        color: rgb(46, 46, 46);
+    }
+
 
 /* RESPONSIVIDADE */
 @media(max-width: 480px){
 
     body{
-        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
     }
 
     #header{
-        width: 100%;
+        width: 480px;
+        height: 103px !important;
         background-color: #fff;
         display: flex;
         height: 15%;
@@ -112,5 +289,119 @@ body {
         gap: 7px;
         justify-content: space-around;
     }
-}
 
+    #sobre{
+        margin-top: 100px;
+    }
+
+    .primeiro-container{
+        height: 45vh;
+    }
+
+    #img-pai{
+        width: 200px !important;
+    }
+
+    .container-texto{
+        font-size: 0.55em;
+    }
+
+    .silas-samuel{
+        width: 200px;
+        height: 250px;
+    }
+
+    .containersegundo-texto > p{
+        font-size: 0.55em;
+        width: 150px;
+        text-align: center;
+        
+    }
+
+    .container{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .segundo-container{
+        height: 50vh;
+    }
+
+    .containersegundo-texto > h2{
+        font-size: 0.825em;
+        text-align: center;
+    }
+
+
+    .logo-icons-container{
+        width: 0.1px;
+ 
+     }
+ 
+     .traco{
+         width: 80% !important; 
+         margin-top: 5px !important;   
+     } 
+ 
+     footer{
+        height: 10px !important;
+     }
+ 
+     .hiperlinks-footer{
+         display: flex;
+         align-items: center !important;
+         justify-content: space-around;
+     }
+ 
+     .hiperlink-footer{
+         font-size: 10px !important;
+         display: flex;
+         justify-content: space-between;
+         margin-top: 5px;
+         
+     }
+
+     #container-footer{
+        margin-top: -10px !important;
+     }
+ 
+ 
+     .footer-header{
+         display: flex;
+         justify-content: center !important;
+         gap: 5px;
+         margin-right: 40px;
+     }
+ 
+     .privacy-politics > a{
+         font-size: 10px;
+ 
+     }
+ 
+     #textos-footer{
+         width: 100%;
+         display: flex;
+         justify-content: space-evenly;
+         margin-right: 30px;
+         height: 65px;
+     }
+ 
+     #copyright{
+         text-align: center;
+         margin: auto;
+         margin-top: 35px;
+         height: 50px;
+         width: 408px;
+     }
+ 
+     .text-copyright{
+         font-size: 10px !important;
+         height: 80px;
+     }
+
+
+ 
+
+}
