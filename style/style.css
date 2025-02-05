@@ -314,7 +314,7 @@ body {
     }
 
     .navbar{
-        margin-right: 113px;
+        margin-right: 23px;
         width: 200px;
         display: flex;
         gap: 7px;
@@ -335,7 +335,7 @@ body {
 
     .text-carrossel{
         
-        margin-left: -275px !important;
+        margin-left: -70.5% !important;
         margin-top: -110px;
         font-size: 2em !important;
       
@@ -343,7 +343,7 @@ body {
 
     .paragrafo-carrossel{
         font-size: 0.8em;
-        margin-top: -30px;
+        margin-top: -8%;
         width: 250px;
         height: 100px;
     }
