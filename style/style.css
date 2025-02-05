@@ -283,6 +283,7 @@ body {
         height: 100%;
     }
 
+    
     #header{
         max-width: 480px;
         background-color: #fff;
@@ -314,13 +315,13 @@ body {
     }
 
     .navbar{
-        margin-right: 23px;
+        margin-right: 24px;
         width: 200px;
         display: flex;
         gap: 7px;
         justify-content: space-around;
     }
-
+    
     .paragrafo-carrossel{
         height: 160px;
     }
