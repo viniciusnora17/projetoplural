@@ -280,7 +280,7 @@ body {
 @media(max-width: 480px){
 
     body{
-        height: 100%;
+        height: 90%;
     }
 
     #header{
@@ -336,11 +336,16 @@ body {
     .titulo-contato > h1{
         font-size: 35px;
     }
+
+    .titulo-contato{
+        margin-bottom: -2px;
+    }
     
     .entre-contato{
         display: flex;
         flex-direction: column;
         height: 450px;
+        margin-bottom: 50px;
     }
     
     .container-mapa{
@@ -369,6 +374,10 @@ body {
     .logo-icons-container{
         width: 0.1px;
  
+     }
+
+     #container-contatos{
+        height: 700px !important;
      }
  
      .traco{
