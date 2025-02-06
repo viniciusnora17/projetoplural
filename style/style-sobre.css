@@ -266,7 +266,7 @@ body {
     }
     
     #header {
-        width: 470px;
+        width: 480px;
         height: 103px !important;
         background-color: #fff;
         display: flex;
@@ -295,7 +295,7 @@ body {
     }
     
     .navbar {
-        margin-right: 23px;
+        margin-right: 100px;
         width: 200px;
         display: flex;
         gap: 7px;
