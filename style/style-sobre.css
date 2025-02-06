@@ -262,10 +262,11 @@ body {
 
     body {
         height: 100%;
+        max-width: 100%;
     }
     
     #header {
-        width: 100%;
+        width: 470px;
         height: 103px !important;
         background-color: #fff;
         display: flex;
@@ -319,31 +320,31 @@ body {
 
     .silas-samuel{
         width: 190px;
-        height: 250px;
+        height: 210px;
     }
 
     .containersegundo-texto > p{
-        font-size: 0.55em;
+        font-size: 0.46em;
         width: 150px;
         text-align: center;
         
     }
 
     .container{
-        width: 85%;
+        width: 90%;
         display: flex;
         justify-content: space-around;
         
     }
 
     .segundo-container{
-        height: 50vh;
+        height: 40vh;
     }
 
     .containersegundo-texto > h2{
         font-size: 0.825em;
         text-align: center;
-        margin-right: 20px;
+       
     }
 
 
@@ -354,7 +355,7 @@ body {
  
      .traco{
          width: 80% !important; 
-         margin-top: 5px !important;   
+         margin-top: 15px !important;   
      } 
  
      footer{
@@ -412,6 +413,7 @@ body {
      .text-copyright{
          font-size: 10px !important;
          height: 80px;
+         width: 331px;
      }
 
      .icon{
