@@ -7,11 +7,10 @@
     padding: 0;
     font-family: "Noto Sans", serif;
     max-width: 100%;
- 
 }
 
 html {
-    overflow-x: hidden; /* Impede qualquer overflow horizontal */
+    overflow-x: hidden; 
     max-width: 100%;
 }
 
@@ -366,7 +365,7 @@ body {
     }
     
     #header {
-        max-width: 480px !important;
+        max-width: 390px !important;
         height: 103px !important;
         background-color: #fff;
         display: flex;
@@ -374,7 +373,7 @@ body {
     }
     
     .container-logo {
-        width: 200px;
+        width: 190px;
     }
     
     #logo {
@@ -420,9 +419,10 @@ body {
 
     .text-carrossel{
         
-        margin-left: -70.5% !important;
-        margin-top: -110px;
-        font-size: 2em !important;
+        font-size: 2px !important;
+        margin-top: -30px !important;
+        font-weight: 100;
+        width: 500px;
       
     }
 
@@ -445,13 +445,13 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 60vh;
+        height: 40vh;
 
     }
 
     .img-sobre-nos{
         width: 400px !important;
-        height: 260px;
+        height: 220px;
     }
 
     .title-sobrenos{
@@ -507,21 +507,21 @@ body {
     
     .container-escritorio{
         margin-left: 180px !important;
-        margin-top: 20px;
+        margin-top: 40px;
         height: 30vh;
     }
 
     .container-escritorio > img{
-        width: 86%;
-        
-        
+        width: 73%;
+        height: 65%;
+        margin-left: -20px;
     }
 
     .container-texto-escritorio > h2{
-        font-size: 1.2em;
+        font-size: 1.1em;
         width: 200px !important;
         margin-left: 3px;
-        height: 10px;
+        height: 5px;
     }
 
     .container-escritorio.aparecendo{
@@ -529,78 +529,110 @@ body {
     }
 
     .paragrafo-container{
-        font-size: 0.7em;
-        width: 85%;
+        font-size: 0.6em;
+        margin-bottom: 30px;
+        width: 70%;
     }
 
     /* FOOTER */
     
 
+    #container-footer{
+        width: 75%;
+        margin: auto;
+        height: 150px;
+    }
+    
+    #conteudo-footer{
+        width: 100%;
+    }
+    
+    .itens-footer{
+        width: 25%;
+    }
+    
     .logo-icons-container{
-       width: 0.1px;
+        width: 0.1px;
+ 
+     }
 
-    }
-
-    .traco{
-        width: 80% !important; 
-        margin-top: 55px !important;   
-    } 
-
-
-    .icons{
-        font-size: 20px;
-        text-align: center;
-        width: 20px;
-        margin-top: 1%;
-        margin-left: -85vw;
-    }
-
-    .hiperlinks-footer{
+     #container-contatos{
+        height: 710px !important;
+     }
+ 
+     .traco{
+         width: 80% !important; 
+         margin-top: 1px;
+     } 
+ 
+ 
+     .icons{
+         font-size: 20px;
+         text-align: center;
+         width: 20px;
+         margin-top: 1%;
+         margin-left: -85vw;
+     }
+ 
+     .hiperlinks-footer{
         display: flex;
-        align-items: center !important;
-        justify-content: space-around;
-        margin-left: 50px
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .hiperlink-footer{
         font-size: 10px !important;
         display: flex;
         justify-content: space-between;
-        margin-top: 5px;
-        
     }
+ 
+     .footer-header{
+         display: flex;
+         justify-content: center !important;
+         gap: 5px;
+         margin-top: 3px;
+         margin-right: 40px;
+     }
+ 
+     .privacy-politics > a{
+         font-size: 10px !important; 
+ 
+     }
 
+     .privacy-politics
+     {
+        margin-left: 20px;
+        width: 230px !important;
+     }
+ 
+     #textos-footer{
+         width: 100%;
+         display: flex;
+         justify-content: space-evenly;
+         margin-right: 30px;
+         height: 65px;
+     }
+ 
+     #copyright{
+         text-align: center;
+         margin: auto;
+         margin-top: 35px;
+     }
+ 
+     .text-copyright{
+         font-size: 10px !important;
+     }
 
-    .footer-header{
-        display: flex;
-        justify-content: center !important;
-        gap: 5px;
-        margin-right: 40px;
-    }
+     #face{
+        font-size: 0.1px !important;
+        color: white;
+     }
 
-    .privacy-politics > a{
-        font-size: 10px !important;
-        margin-top: 12px !important;
-
-    }
-
-    #textos-footer{
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        margin-right: 30px;
-        height: 65px;
-    }
-
-    #copyright{
-        text-align: center;
-        margin: auto;
-        margin-top: 35px;
-    }
-
-    .text-copyright{
-        font-size: 10px !important;
-    }
+     #insta{
+        font-size: 0.1px !important;
+        color: white;
+     }
 }
 
 /* Estilos para telas médias */
