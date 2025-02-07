@@ -33,6 +33,13 @@ body {
 
 }
 
+#eng-arq{
+    width: 145px !important;
+    height: 15px !important;
+    cursor: pointer;
+}
+
+
 #logo{
     width: 95px;
     cursor: pointer;
@@ -40,14 +47,21 @@ body {
 }
 
 #logo-texto{
-    width: 130px;
-    margin-bottom: 55px;
+    width: 150px;
     cursor: pointer;
 }
 
 .container-logo{
+    display: flex;
+    align-items: center;
     width: 400px;
-    
+}
+
+.container-eng-arq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .navbar{
@@ -283,38 +297,45 @@ body {
         height: 90%;
     }
 
-    #header{
-        max-width: 480px;
-        background-color: #fff;
-        display: flex;
-        height: 103px;
-    }
-
-    .container-logo{
-        display: flex;
-        
+    body {
+        height: 100%;
     }
     
-    #logo{
+    #header {
+        max-width: 480px !important;
+        height: 103px !important;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-logo {
+        width: 200px;
+    }
+    
+    #logo {
         width: 60px;
         margin-bottom: 15px;
     }
     
-    #logo-texto{
-        margin-top: 30px;
-        width: 70px;
-        height: 15px;
+    #logo-texto {
+        width: 100px;
+        height: 17px;
     }
 
-    .hiperlink{
+    #eng-arq{
+        width: 95px !important;
+        height: 13px !important;
+    }
+    
+    .hiperlink {
         font-size: 11px;
         justify-content: center;
         display: flex;
         flex-wrap: wrap;
     }
-
-    .navbar{
-        margin-right: 24px;
+    
+    .navbar {
         width: 200px;
         display: flex;
         gap: 7px;

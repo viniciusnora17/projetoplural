@@ -16,3 +16,4 @@ function trocarImagem() {
 
 
 setInterval(trocarImagem, 6000); 
+  

@@ -17,3 +17,7 @@ function paginaOab(){
 function redirectEscritorio(){
     location.replace("contato.html")
 }
+
+function redirectContato(){
+    location.replace("contato.html")
+}

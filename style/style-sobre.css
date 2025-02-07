@@ -33,6 +33,13 @@ body {
 
 }
 
+#eng-arq{
+    width: 145px !important;
+    height: 15px !important;
+    cursor: pointer;
+}
+
+
 #logo{
     width: 95px;
     cursor: pointer;
@@ -40,19 +47,27 @@ body {
 }
 
 #logo-texto{
-    width: 130px;
-    margin-bottom: 55px;
+    width: 150px;
     cursor: pointer;
 }
 
 .container-logo{
+    display: flex;
+    align-items: center;
     width: 400px;
-    
 }
+
+.container-eng-arq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 .navbar{
     display: flex;
-    gap: 20px;
+    gap: 24px;
     
 }
 
@@ -140,6 +155,36 @@ body {
     height: 90%;
 }
 
+
+
+.container-img-texto{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.container-burocracia > h1{
+    font-size: 34px;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.img-burocracia{
+    width: 50%;
+}
+
+.p-burocracia{
+    width: 200px;
+    text-align: center;
+    font-size: 19.5px;
+}
+
 /* FOOTER */
 
     .logo-icons-container{
@@ -166,8 +211,6 @@ body {
     #face{
         font-size: 25px;
     }
-    
-
     
     #container-footer{
         height: 20vh;
@@ -265,15 +308,20 @@ body {
         max-width: 100%;
     }
     
+    body {
+        height: 100%;
+    }
+    
     #header {
-        width: 480px;
+        max-width: 480px !important;
         height: 103px !important;
         background-color: #fff;
         display: flex;
+        justify-content: center;
     }
     
     .container-logo {
-        display: flex;
+        width: 200px;
     }
     
     #logo {
@@ -282,9 +330,13 @@ body {
     }
     
     #logo-texto {
-        margin-top: 30px;
-        width: 70px;
-        height: 15px;
+        width: 100px;
+        height: 17px;
+    }
+
+    #eng-arq{
+        width: 95px !important;
+        height: 13px !important;
     }
     
     .hiperlink {
@@ -295,7 +347,6 @@ body {
     }
     
     .navbar {
-        margin-right: 120px;
         width: 200px;
         display: flex;
         gap: 7px;
@@ -323,6 +374,13 @@ body {
         height: 210px;
     }
 
+    .containersegundo-texto{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .containersegundo-texto > p{
         font-size: 0.46em;
         width: 150px;
@@ -333,7 +391,7 @@ body {
     .container{
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         
     }
 
@@ -347,15 +405,36 @@ body {
        
     }
 
+    .container-burocracia{
+        margin-top: -120px;
+    }
+
+    .container-burocracia > h1{
+        font-size: 16px;
+        height: 20px;
+    }
+    
+    .p-burocracia{
+        font-size: 8px;
+        width: 100px;
+    }
+
+    .img-burocracia{
+        width: 60%;
+    }
+
+    /* FOOTER */
 
     .logo-icons-container{
         width: 0.1px;
  
      }
+     
+
  
      .traco{
          width: 80% !important; 
-         margin-top: 15px !important;   
+         margin-top: 55px !important;   
      } 
  
      footer{
