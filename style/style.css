@@ -357,7 +357,13 @@ body {
 
 /* //RESPONSIVIDADE */
 
-/* Estilos para telas pequenas */
+@media(max-width: 390px){
+    #header {
+        width: 390px !important;
+    }
+}
+
+
 @media(max-width: 480px){
 
     body {
@@ -365,7 +371,7 @@ body {
     }
     
     #header {
-        max-width: 390px !important;
+        max-width: 100% !important;
         height: 103px !important;
         background-color: #fff;
         display: flex;
@@ -373,7 +379,7 @@ body {
     }
     
     .container-logo {
-        width: 190px;
+        width: 200px;
     }
     
     #logo {
@@ -445,12 +451,12 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 40vh;
+        height: 50vh;
 
     }
 
     .img-sobre-nos{
-        width: 400px !important;
+        width: 300px !important;
         height: 220px;
     }
 
@@ -512,9 +518,9 @@ body {
     }
 
     .container-escritorio > img{
-        width: 73%;
+        width: 83%;
         height: 65%;
-        margin-left: -20px;
+        margin-left: -10px;
     }
 
     .container-texto-escritorio > h2{
@@ -538,7 +544,7 @@ body {
     
 
     #container-footer{
-        width: 75%;
+        width: 100%;
         margin: auto;
         height: 150px;
     }
@@ -590,7 +596,7 @@ body {
      .footer-header{
          display: flex;
          justify-content: center !important;
-         gap: 5px;
+         gap:4px;
          margin-top: 3px;
          margin-right: 40px;
      }
@@ -603,14 +609,14 @@ body {
      .privacy-politics
      {
         margin-left: 20px;
-        width: 230px !important;
+        width: 290px !important;
+       
      }
  
      #textos-footer{
          width: 100%;
          display: flex;
          justify-content: space-evenly;
-         margin-right: 30px;
          height: 65px;
      }
  

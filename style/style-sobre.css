@@ -299,6 +299,10 @@ body {
         color: rgb(46, 46, 46);
     }
 
+@media(max-width: 390px){
+    
+}
+
 
 /* RESPONSIVIDADE */
 @media(max-width: 480px){
@@ -313,7 +317,7 @@ body {
     }
     
     #header {
-        max-width: 480px !important;
+        max-width: 100% !important;
         height: 103px !important;
         background-color: #fff;
         display: flex;
