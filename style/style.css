@@ -7,6 +7,7 @@
     padding: 0;
     font-family: "Noto Sans", serif;
     max-width: 100%;
+    
 }
 
 html {
@@ -358,10 +359,32 @@ body {
 /* //RESPONSIVIDADE */
 
 @media(max-width: 390px){
-    #header {
-        width: 390px !important;
-    }
+
+  #carrossel > h1{
+    font-size: 1.8em !important;
+    font-weight: 500;
+    width: 300px;
+    top: 155px !important;
+  }
+
+  #sobre-nos{
+    height: 300px !important;
+  }
+
+  .textos-sobre-nos{
+    height: 230px !important;
+  }
+
+  .container-escritorio.aparecendo{
+    width: 200px !important;
+  }
+
+  .img{
+    width: 200px !important;
+  }
+
 }
+
 
 
 @media(max-width: 480px){
@@ -371,7 +394,7 @@ body {
     }
     
     #header {
-        max-width: 100% !important;
+        max-width: 100vw !important;
         height: 103px !important;
         background-color: #fff;
         display: flex;
@@ -455,8 +478,8 @@ body {
 
     }
 
-    .img-sobre-nos{
-        width: 300px !important;
+    .img-sobre-nos > img{
+        width: 200px !important;
         height: 220px;
     }
 
