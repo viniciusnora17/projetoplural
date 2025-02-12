@@ -186,13 +186,15 @@ body {
 .logo-icons-container{
     display: flex;
     justify-content: center;
-    width: 95%;
-    gap: 28em;
+    margin: auto;
+    width: 60%;
+    justify-content: space-between;
+    
 }
 
 .icons{
     cursor: pointer;
-    font-size: 28px;
+    font-size: 25px !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,9 +202,10 @@ body {
     gap: 15px;
 }
 
-#face{
-    font-size: 25px;
+#insta{
+    font-size: 28px !important;
 }
+
 
 #container-footer{
     height: 20vh;
@@ -236,8 +239,9 @@ body {
 
 .hiperlinks-footer{
     display: flex;
-    justify-content: space-evenly;
-    gap: 15px;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
     margin-top: 10px;
 }
 
@@ -248,7 +252,7 @@ body {
 }
 
 .footer-header{
-    width: 18%;
+    width: 20%;
     display: flex;
     justify-content: space-around;    
 }
@@ -271,8 +275,6 @@ body {
     color: rgb(46, 46, 46);
 }
 
-
-
 #face:hover{
     color: rgb(46, 46, 46);
 }
@@ -289,7 +291,6 @@ body {
 #nora:hover{
     color: rgb(46, 46, 46);
 }
-
 /* RESPONSIVIDADE */
 
 @media(max-width: 480px){
@@ -410,80 +411,103 @@ body {
     
 /* FOOTER */
 
-    .logo-icons-container{
-        width: 0.1px;
- 
-     }
- 
-     .traco{
-         width: 80% !important; 
-         margin-bottom: -70px !important;   
-     } 
- 
- 
-     .icons{
-         font-size: 20px;
-         text-align: center;
-         width: 20px;
-         margin-top: 1%;
-         margin-left: -85vw;
-     }
- 
-     .hiperlinks-footer{
-         display: flex;
-         align-items: center;
-         justify-content: space-around;
-     }
- 
-     .hiperlink-footer{
-         font-size: 10px !important;
-         display: flex;
-         justify-content: space-between;
-     }
- 
- 
-     .footer-header{
-         display: flex;
-         justify-content: center !important;
-         gap: 5px;
-         margin-top: 3px;
-         margin-right: 40px;
-     }
- 
-     .privacy-politics > a{
-         font-size: 10px;
- 
-     }
- 
-     #textos-footer{
-         width: 100%;
-         display: flex;
-         justify-content: space-evenly;
-         margin-right: 30px;
-         height: 65px;
-     }
- 
-     #copyright{
-         text-align: center;
-         margin: auto;
-         margin-top: 35px;
-         width: 408px;
-     }
- 
-     .text-copyright{
-         font-size: 10px !important;
-         width: 331px;
-     }
+#container-footer{
+    width: 100%;
+    margin: auto;
+    height: 150px;
+}
 
-     #face{
-        font-size: 0.1px !important;
-        color: white;
-     }
+#conteudo-footer{
+    width: 100%;
+}
 
-     #insta{
-        font-size: 0.1px !important;
-        color: white;
-     }
+.itens-footer{
+    width: 25%;
+}
+
+.logo-icons-container{
+    width: 0.1px;
+
+ }
+
+ #container-contatos{
+    height: 710px !important;
+ }
+
+ .traco{
+     width: 80% !important; 
+     margin-top: 80px;
+ } 
+
+
+ .icons{
+     font-size: 20px;
+     text-align: center;
+     width: 20px;
+     margin-top: 1%;
+     margin-left: -85vw;
+ }
+
+ .hiperlinks-footer{
+    display: flex;
+    width: 408px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hiperlink-footer{
+    font-size: 10px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+ .footer-header{
+     display: flex;
+     justify-content: center !important;
+     gap:4px;
+     margin-top: 3px;
+     margin-right: 40px;
+ }
+
+ .privacy-politics > a{
+     font-size: 10px !important; 
+
+ }
+
+ .privacy-politics
+ {
+    margin-left: 20px;
+    width: 196px !important;
+   
+ }
+
+ #textos-footer{
+     width: 100%;
+     display: flex;
+     justify-content: space-evenly;
+     height: 65px;
+ }
+
+ #copyright{
+    width: 331px;
+     text-align: center;
+     margin: auto;
+     margin-top: 35px;
+ }
+
+ .text-copyright{
+     font-size: 10px !important;
+ }
+
+ #face{
+    font-size: 0.1px !important;
+    color: white;
+ }
+
+ #insta{
+    font-size: 0.1px !important;
+    color: white;
+ }
  
 }
 

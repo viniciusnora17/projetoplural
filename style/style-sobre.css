@@ -187,117 +187,115 @@ body {
 
 /* FOOTER */
 
-    .logo-icons-container{
-        display: flex;
-        justify-content: center;
-        width: 95%;
-        gap: 27em;
-    }
+.logo-icons-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    justify-content: space-between;
     
-    .icons{
-        cursor: pointer;
-        font-size: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-right: 30px;
-        gap: 15px;
-    }
-    
-    .icon{
-        font-size: 28px;
-    }
+}
 
-    #face{
-        font-size: 25px;
-    }
-    
-    #container-footer{
-        height: 20vh;
-        margin-top: 100px;
-        justify-content: center;
-        align-items: center;
-     
-    }
-    
-    .traco{
-        background-color: rgb(119, 119, 119);
-        width: 1000px;
-        margin: auto;
-        height: 1px;
-        margin-top: 6em;
-    }
-    
-    #footer-logo{
-        width: 175px;
-        cursor: pointer;
-        margin-right: 23px;
-    
-    }
+.icons{
+    cursor: pointer;
+    font-size: 25px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    gap: 15px;
+}
 
-    
-    
-    .privacy-politics > a{
-        font-size: 15px;
-        text-decoration: none;
-        cursor: pointer;  
-        color: rgb(121, 120, 120);  
-        font-weight: bold;
-    }
-    
-    .hiperlinks-footer{
-        display: flex;
-        justify-content: space-evenly;
-        gap: 15px;
-        margin-top: 10px;
-    }
-    
-    .hiperlink-footer{
-        text-decoration: none;
-        color: rgb(121, 120, 120);
-        font-weight: bold;
-    }
-    
-    .footer-header{
-        width: 18%;
-        display: flex;
-        justify-content: space-around;    
-    }
-    
-    #copyright{
-        height: 80px;
-        margin-top: 7%;
-        justify-content: center;
-        display: flex;
-        font-family: "Poppins", sans-serif;
-        color: rgb(121, 120, 120);
-        font-weight: bold;
-    }
-    
-    #copyright > p{
-        font-size: 13px;
-    }
-    
-    .hiperlink-footer:hover{
-        color: rgb(46, 46, 46);
-    }
-    
-    #face:hover{
-        color: rgb(46, 46, 46);
-    }
-    
-    #insta:hover{
-        color: rgb(46, 46, 46);
-    }
-    
-    #nora{
-        text-decoration: none;
-        color: rgb(121, 120, 120);
-      }
-    
-    #nora:hover{
-        color: rgb(46, 46, 46);
-    }
+#insta{
+    font-size: 28px !important;
+}
+
+
+#container-footer{
+    height: 20vh;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+.traco{
+    background-color: rgb(119, 119, 119);
+    width: 1000px;
+    margin: auto;
+    height: 1px;
+    margin-top: 6em;
+}
+
+#footer-logo{
+    width: 175px;
+    cursor: pointer;
+
+}
+
+.privacy-politics > a{
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;  
+    color: rgb(121, 120, 120);  
+    font-weight: bold;
+}
+
+.hiperlinks-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.hiperlink-footer{
+    text-decoration: none;
+    color: rgb(121, 120, 120);
+    font-weight: bold;
+}
+
+.footer-header{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+#copyright{
+    height: 80px;
+    margin-top: 7%;
+    justify-content: center;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    color: rgb(121, 120, 120);
+    font-weight: bold;
+}
+
+#copyright > p{
+    font-size: 13px;
+}
+
+.hiperlink-footer:hover{
+    color: rgb(46, 46, 46);
+}
+
+#face:hover{
+    color: rgb(46, 46, 46);
+}
+
+#insta:hover{
+    color: rgb(46, 46, 46);
+}
+
+#nora{
+    text-decoration: none;
+    color: rgb(121, 120, 120);
+  }
+
+#nora:hover{
+    color: rgb(46, 46, 46);
+}
+
 
 @media(max-width: 390px){
     #copyright{
@@ -437,8 +435,11 @@ body {
  
      }
      
-
- 
+     #footer-logo{
+        width: 01px !important;
+     }
+     
+     
      .traco{
          width: 80% !important; 
          margin-top: 55px !important;   
@@ -452,6 +453,7 @@ body {
          display: flex;
          align-items: center !important;
          justify-content: space-around;
+         width: 408px;
      }
  
      .hiperlink-footer{
@@ -479,6 +481,10 @@ body {
          font-size: 10px;
  
      }
+
+     .privacy-politics{
+        width: 196px;
+     }
  
      #textos-footer{
          width: 100%;
@@ -503,7 +509,7 @@ body {
      }
 
      .icon{
-        font-size: 0.1px;
+        font-size: 0.1px !important;
         color: white;
      }
 
@@ -512,6 +518,15 @@ body {
      }
 
 
+  #insta{
+        font-size: 0.1px !important;
+        width: 0.1px !important;
+     }
+
+     .icons{
+        width: 0.1px;
+     }
+     
  
 
 }
