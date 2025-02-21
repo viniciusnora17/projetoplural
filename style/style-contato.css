@@ -110,6 +110,14 @@ body {
     font-size: 25px;
 }
 
+.telefone{
+    cursor: pointer;
+}
+
+.telefone:hover{
+    color: rgb(46, 46, 46);
+}
+
 
 .entre-contato{
     background-color: #fff;
@@ -117,7 +125,7 @@ body {
     justify-content: space-around;
     display: flex;
     align-items: center;
-    height: 400px;
+    height: 60vh;
     
 }
 
@@ -138,6 +146,10 @@ body {
     color: black;
     width: 260px;
     font-size: 18px;
+}
+
+#endereco:hover{
+    color: rgb(46, 46, 46);
 }
 
 
@@ -214,6 +226,9 @@ body {
     font-size: 28px !important;
 }
 
+#wpp{
+    font-size: 29px !important;
+}
 
 #container-footer{
     height: 20vh;
@@ -280,6 +295,10 @@ body {
 }
 
 .hiperlink-footer:hover{
+    color: rgb(46, 46, 46);
+}
+
+#wpp:hover{
     color: rgb(46, 46, 46);
 }
 

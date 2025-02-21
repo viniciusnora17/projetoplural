@@ -29,53 +29,67 @@
             </nav>
         </div>
     </header>
+    
+    <div id="projetos">
+        <h1 class="titulo-projeto">Projetos</h1>
+    </div>
+    
+    <div class="traco-principal"></div>
 
     <section>
-        <div id="projetos">
-            <h1 class="titulo-projeto">Projetos</h1>
-        </div>
-
-        <div class="traco-principal"></div>
-
         <div id="fotos-projetos">
-            <div class="primeira-img">
              
-                <div class="zoom">
-                    <img onclick="paginaOab()" class="oab" src="img/img-oab-depois.jpg" alt="OAB São João da Boa Vista">
-                </div>
+            <div class="zoom">
+                <img onclick="paginaOab()" class="oab" src="img/img-oab-depois.jpg" alt="OAB São João da Boa Vista">
             </div>
-
-            <div class="terreno-img">
-            
+        
+            <div class="container-terreno">
                 <img class="obra-terreno" src="img/obra-terreno.jpg" alt="OAB São João da Boa Vista">
             </div>
 
-            <div class="primeira-img">
-                
-                <div class="zoom">
-                    <img onclick="redirectEscritorio()" class="escritorio" src="img/img-antes-da-obra.jpg" alt="OAB São João da Boa Vista">
-                </div>
+            <div class="container-antes">
+                 <img onclick="redirectEscritorio()" class="antes-obra" src="img/img-antes-da-obra.jpg" alt="Nosso escritório">
             </div>
 
         </div>
+    </section>
 
+    <section>
         <div id="section-fotos">
-            <div class="primeira-img">
-               
+            <div class="container-terreno2">
                 <img class="terreno" src="img/terreno.jpg" alt="OAB São João da Boa Vista">
             </div>
 
-            <div class="primeira-img">
-        
+            <div class="container-calcada">
                 <img class="calcada" src="img/calçada.jpg" alt="OAB São João da Boa Vista">
             </div>
 
-            <div class="interior-img">
+            <div class="container-interior-img">
                 <img class="ft-interior-casa" src="img/ftprojeto.jpg" alt="OAB São João da Boa Vista">
             </div>
 
         </div>
     </section>
+
+    <section>
+        <div id="terceira-section">
+            
+                <div class="container-piscina">
+                    <img class="piscina" src="img/piscina.jpg" alt="Piscina">
+                </div>
+            
+
+                <div class="container-bauer">
+                    <img class="obra-bauer" src="img/obra-bauer.jpg" alt="Obra Bauer">
+                </div>
+          
+                <div class="container-torre">
+                    <img class="projeto-de-torre" src="img/projeto-de-torre.jpg" alt="Projeto Torre">
+                </div>
+        
+        </div>
+    </section>
+
 
     <footer>
         <div class="traco"> </div>
@@ -87,6 +101,7 @@
                 </div>
 
                 <div class="icons">
+                    <i onclick="redirectWhatsApp2()"  class="fa-brands fa-whatsapp whatsapp" id="wpp"></i>
                     <i onclick="redirectInsta()" id="insta" class="fa-brands fa-instagram"></i>
                     <i onclick="redirectFace()" id="face" class="fa-brands fa-facebook-f"></i>
                 </div>

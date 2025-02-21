@@ -225,7 +225,7 @@ body {
 }
 
 .container-texto-escritorio > h2 {
-    font-size: 4em;
+    font-size: 4.5vw;
     height: 70px;
     font-weight: 400;
     width: 500px;
@@ -249,6 +249,10 @@ body {
 .container-escritorio.aparecendo .container-texto-escritorio {
     opacity: 1;
     transform: translateX(0);
+}
+
+#terceira-section{
+    display: flex;
 }
 
 
@@ -276,6 +280,9 @@ body {
 
 #insta{
     font-size: 28px !important;
+}
+#wpp{
+    font-size: 29px !important;
 }
 
 
@@ -347,6 +354,10 @@ body {
     color: rgb(46, 46, 46);
 }
 
+#wpp:hover{
+    color: rgb(46, 46, 46);
+}
+
 #face:hover{
     color: rgb(46, 46, 46);
 }
@@ -388,34 +399,36 @@ body {
     height: 230px !important;
   }
 
+  
   .container-escritorio.aparecendo{
-    max-width: 100% !important;
-    
-  }
-  .container-escritorio .img{
-    width: 220px !important;
-    margin-left: 160px;
-  }
-
-  .container-texto-escritorio > h2{
-    margin-left: 100px !important;
-    font-size: 12px !important;
-    width: 200px !important;
-
-  }
-
-  .paragrafo-container{
-    margin-left: 150px;
-    width: 180px !important;
-  }
-
-  .container-texto-escritorio{
-    width: 100px !important;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
   }
 
   .img{
-    width: 200px !important;
+    width: 40% !important;
   }
+
+  .container-texto-escritorio{
+   width: 000px !important;
+   margin-right: -50px !important;
+  }
+
+  .container-texto-escritorio > h2 {
+    font-size: 18px;
+    width: 100px !important;
+    margin-right: -200px !important;
+    background-color: green;
+ }
+
+  .paragrafo-container{
+    color: white;
+    font-size: 0.1px !important;
+  }
+  
 
 }
 

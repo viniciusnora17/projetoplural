@@ -15,5 +15,5 @@ function trocarImagem() {
 }
 
 
-setInterval(trocarImagem, 6000); 
+setInterval(trocarImagem, 5000); 
   
