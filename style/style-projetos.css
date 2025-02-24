@@ -318,9 +318,8 @@ body {
 @media(max-width: 480px){
 
     body{
-        height: 100%;
+        max-height: 100%;
     }
-
 
     
     #header {
@@ -370,7 +369,7 @@ body {
 
     .traco-principal{
         background-color: rgb(119, 119, 119);
-        margin-bottom: 20%;
+        margin-bottom: 13%;
     }
 
     #fotos-projetos{
@@ -379,30 +378,22 @@ body {
         display: flex;
         justify-content: space-around;
         flex-direction: column;
-        height: 100vh;
+        height: 90vh;
+    }
+
+    .zoom{
+        width: 80%;
     }
     
-    .terreno-img{
-        height: 20vh;
+    .container-terreno{
+        width: 70%;
     }
 
-    .primeira-img{
-        height: 225px;
+    .container-antes{
+        width: 76%;
     }
 
-    .oab{
-        width: 300px;
-    }
-
-    .obra-terreno{
-        width: 300px;
-        height: 130px;
-    }
-
-    .escritorio{
-        width: 300px;
-        height: 200px;
-    }
+    /* SECTION2 */
 
     #section-fotos{
         width: 100%;
@@ -412,24 +403,39 @@ body {
         flex-direction: column;
     }
 
-    .terreno{
-        width: 300px;
-        height: 220px;
+    .container-terreno2{
+        width: 70%;
     }
 
-    .ft-interior-casa{
-        width: 300px;
-        height: 220px;
+    .container-calcada{
+        width: 45%;
     }
 
-    .calcada{
-        width: 120px;
-        height: 220px;
+    .container-interior-img{
+        width: 74%;
     }
 
-    .interior-img{
-        height: 220px;
+    #terceira-section{
+        display: flex;
+        justify-content: space-between !important;
+        flex-direction: column;
+        align-items: center;
+        height: 120vh !important;
+        margin-top: 130px;
     }
+
+    .container-piscina{
+        width: 37%;
+    }
+    
+    .container-bauer{
+        width: 50%;
+    }
+
+    .container-torre{
+        width: 40%;
+    }
+   
     
 /* FOOTER */
 
@@ -458,7 +464,7 @@ body {
 
  .traco{
      width: 80% !important; 
-     margin-top: 80px;
+     margin-top: 20px;
  } 
 
 
@@ -469,6 +475,10 @@ body {
      margin-top: 1%;
      margin-left: -85vw;
  }
+
+ #wpp{
+    font-size: 1px !important; 
+  }
 
  .hiperlinks-footer{
     display: flex;

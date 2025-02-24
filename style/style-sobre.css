@@ -309,6 +309,11 @@ body {
         width: 380px !important;
     }
 
+    #wpp{
+        font-size: 1px !important; 
+      }
+    
+
 }
 
 

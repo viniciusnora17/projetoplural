@@ -379,6 +379,10 @@ body {
 @media(max-width: 390px){
 
 
+    .container-escritorio {
+        display: none;
+    }
+
     body {
         height: 100%;
         max-width: 100vw !important;
@@ -400,33 +404,14 @@ body {
   }
 
   
-  .container-escritorio.aparecendo{
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+ 
+
+  #wpp{
+    font-size: 1px !important; 
   }
 
   .img{
-    width: 40% !important;
-  }
-
-  .container-texto-escritorio{
-   width: 000px !important;
-   margin-right: -50px !important;
-  }
-
-  .container-texto-escritorio > h2 {
-    font-size: 18px;
-    width: 100px !important;
-    margin-right: -200px !important;
-    background-color: green;
- }
-
-  .paragrafo-container{
-    color: white;
-    font-size: 0.1px !important;
+    width: 1px !important;
   }
   
 
@@ -879,7 +864,6 @@ body {
 
   }
 
- 
 
   @media (max-width: 1440px) {
     .text-carrossel{
