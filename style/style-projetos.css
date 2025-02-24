@@ -315,11 +315,7 @@ body {
 }
 /* RESPONSIVIDADE */
 
-@media(max-width: 390px){
-    #header{
-        width: 390px;
-    }
-}
+
 
 @media(max-width: 480px){
 

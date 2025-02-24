@@ -414,6 +414,7 @@ body {
     width: 1px !important;
   }
   
+  
 
 }
 
@@ -638,9 +639,9 @@ body {
  
      .hiperlinks-footer{
         display: flex;
-        width: 100%;
+        width: 408px;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .hiperlink-footer{

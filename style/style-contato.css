@@ -319,6 +319,12 @@ body {
     color: rgb(46, 46, 46);
 }
 
+@media(max-width: 390px){
+    #header{
+        max-width: 390px !important;
+    }
+}
+
 @media(max-width: 480px){
 
     body{
@@ -330,7 +336,7 @@ body {
     }
     
     #header {
-        max-width: 480px !important;
+        max-width: 100% !important;
         height: 103px !important;
         background-color: #fff;
         display: flex;
@@ -443,11 +449,11 @@ body {
      }
  
      .hiperlinks-footer{
-         display: flex;
-         width: 408px;
-         align-items: center;
-         justify-content: space-around;
-     }
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
  
      .hiperlink-footer{
          font-size: 10px !important;
