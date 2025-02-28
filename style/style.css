@@ -82,6 +82,7 @@ body {
 }
 
 .hiperlink:hover{
+    transform: translate(-0.05em, -0.05em);
     color: rgb(92, 91, 91);
 }
 
@@ -128,7 +129,7 @@ body {
 
 /* SOBRE NOS*/
 
-#sobre-nos{
+#sobre-nos {
     margin-top: 5%;
     display: flex;
     justify-content: center;
@@ -136,11 +137,20 @@ body {
     height: 65vh;
     max-width: 100%;
     gap: 25px;
+    opacity: 0; /* Começa invisível */
+    transform: translateY(-50px); /* Começa acima */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Transição suave */
+}
+
+#sobre-nos.aparecer {
+    opacity: 1;
+    transform: translateY(0); /* Move para posição original */
 }
 
 
 .img-sobre-nos{
-    width: 26% !important;
+    width: 30% !important;
+    border-radius: 10px;
 }
 
 .title-sobrenos{
@@ -188,22 +198,38 @@ body {
 /* ESCRITORIO */
 
 .container-escritorio {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    flex-wrap: nowrap; /* Mantém os itens na mesma linha */
+    width: 90%;
+    max-width: 1200px;
+    margin: 150px auto; /* Centraliza */
+    gap: 40px; /* Espaço entre texto e imagem */
     position: relative;
-    width: 100%;
-    max-width: 700px;
-    margin-top: 150px;
-    margin-left: 600px;
 }
 
 .img {
-    
-    opacity: 0;
-    transform: translateX(200px);
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+    max-width: 60%;
+    height: auto;
     border-radius: 5px;
-    margin-left: 20px;
-    
+    opacity: 0;
+    transform: translateX(200px); /* Mantém a animação */
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
+
+.container-texto-escritorio {
+    max-width: 45%;
+    height: 50vh;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    transform: translateX(-200px); /* Mantém a animação */
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
 
 /* botao personalizado */
 
@@ -237,18 +263,12 @@ button {
 
 /* botao personalizado */
 
-.container-texto-escritorio {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    height: 47vh;
-    position: absolute;
-    right: 100%;
-    transform: translateX(-200px); 
-    opacity: 0; 
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
-    
+.container-escritorio.aparecendo .container-texto-escritorio,
+.container-escritorio.aparecendo .img {
+    opacity: 1;
+    transform: translateX(0);
 }
+
 
 .container-texto-escritorio > h2 {
     font-size: 4.5vw;
@@ -973,6 +993,9 @@ ul {
 
 
   @media (max-width: 1440px) {
+
+    
+
     .text-carrossel{
         position: absolute;
         left: 80%;
@@ -1004,3 +1027,4 @@ ul {
  
     }
   }
+
