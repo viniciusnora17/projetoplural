@@ -529,8 +529,13 @@ ul {
     height: 230px !important;
   }
 
-  
+  .footer-header{
+    margin-right: -30px !important;
+  }
  
+  .privacy-politics{
+    margin-left: -20px !important;
+  }
 
   #wpp{
     font-size: 1px !important; 
@@ -742,19 +747,19 @@ ul {
     
     .logo-icons-container{
         width: 0.1px;
- 
+    
      }
-
+    
      #container-contatos{
         height: 710px !important;
      }
- 
+    
      .traco{
          width: 80% !important; 
-         margin-top: 1px;
+         margin-top: 20px;
      } 
- 
- 
+    
+    
      .icons{
          font-size: 20px;
          text-align: center;
@@ -762,20 +767,18 @@ ul {
          margin-top: 1%;
          margin-left: -85vw;
      }
- 
-     .hiperlinks-footer{
-        display: flex;
-        width: 408px;
-        align-items: center;
-        justify-content: space-around;
-    }
-
+    
+     #wpp{
+        font-size: 1px !important; 
+      }
+    
+    
     .hiperlink-footer{
         font-size: 10px !important;
         display: flex;
         justify-content: space-between;
     }
- 
+    
      .footer-header{
          display: flex;
          justify-content: center !important;
@@ -783,42 +786,42 @@ ul {
          margin-top: 3px;
          margin-right: 40px;
      }
- 
+    
      .privacy-politics > a{
          font-size: 10px !important; 
- 
+    
      }
-
+    
      .privacy-politics
      {
         margin-left: 20px;
-        width: 290px !important;
+        width: 196px !important;
        
      }
- 
+    
      #textos-footer{
          width: 100%;
          display: flex;
          justify-content: space-evenly;
          height: 65px;
      }
- 
+    
      #copyright{
+        width: 331px;
          text-align: center;
          margin: auto;
          margin-top: 35px;
      }
- 
+    
      .text-copyright{
          font-size: 10px !important;
-        width: 331px;
      }
-
+    
      #face{
         font-size: 0.1px !important;
         color: white;
      }
-
+    
      #insta{
         font-size: 0.1px !important;
         color: white;
@@ -993,8 +996,6 @@ ul {
 
 
   @media (max-width: 1440px) {
-
-    
 
     .text-carrossel{
         position: absolute;
