@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add("aparecendo");
-                    observer.unobserve(entry.target); // Remove do observer após a animação
+                    observer.unobserve(entry.target); 
                 }
             });
         },
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 }
             });
         },
-        { threshold: 0.3 } // Ativa quando 30% da seção estiver visível
+        { threshold: 0.5 } 
     );
 
     observer.observe(sobreNos);
