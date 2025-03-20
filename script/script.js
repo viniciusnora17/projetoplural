@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
             entries.forEach((entry) => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add("aparecendo");
-                    observer.unobserve(entry.target); // Remove do observer após a animação
+                    observer.unobserve(entry.target); 
                 }
             });
         },
@@ -14,4 +14,22 @@ document.addEventListener("DOMContentLoaded", function () {
     );
 
     containers.forEach((container) => observer.observe(container));
+});
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const sobreNos = document.querySelector("#sobre-nos");
+
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    sobreNos.classList.add("aparecer");
+                }
+            });
+        },
+        { threshold: 0.3 }
+    );
+
+    observer.observe(sobreNos);
 });
