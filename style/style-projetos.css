@@ -87,6 +87,7 @@ body {
     color: rgb(92, 91, 91);
 }
 
+
 .titulo-projeto{
     margin-top: 11%;
     font-size: 62px;
@@ -95,6 +96,33 @@ body {
     font-weight: 300;
 }
 
+.line, .line2, .line3 {
+    background-color: #ffdc00;
+    width: 3px;
+    height: 0;
+    position: absolute;
+    left: 55px;
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+}
+
+.line {bottom: 340px;}
+.line2 { bottom: -350px; }
+.line3 { bottom: -1120px; }
+
+@keyframes growLine {
+    from {
+        height: 0;
+    }
+    to {
+        height: 9%;
+    }
+}
+
+.animate {
+    animation: growLine 1.5s ease-out forwards;
+    opacity: 1; 
+}
 
 
 .traco-principal{
@@ -119,7 +147,7 @@ body {
 
 .title-oab{
     position: absolute !important;
-    left: 55px;
+    left: 70px;
     top: 360px;
     font-weight: 300;
     font-size: 60px;
@@ -131,13 +159,10 @@ body {
     position: relative;
     width: 45%;
     overflow: hidden;
+    border-radius: 10px;
 }
 
-.card img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 
 .text-overlay {
     position: absolute;
@@ -171,7 +196,7 @@ body {
 
 .title-biagio{
     position: absolute !important;
-    left: 60px;
+    left: 70px;
     font-family: "Noto Sans", sans-serif;
     bottom: -345px;
     font-weight: 300;
@@ -197,14 +222,25 @@ body {
 
 .container-biagio{
     width: 31%;
+    border-radius: 10px; 
 }
 
 .container-torre{
     width: 31% !important;
     height: 81%;
+    
+}
+
+.container-torre > img, .container-biagio > img{
+    border-radius: 10px;
+}
+
+.container-construcao > img{
+    border-radius: 5px;
 }
 
  .container-construcao{
+    
     width: 27%;
     display: flex;
     align-items: center;
@@ -218,8 +254,8 @@ body {
 
 .title-piscina{
     position: absolute !important;
-    left: 63px;
-    bottom: -1125px;
+    left: 70px;
+    bottom: -1120px;
     font-weight: 300;
     font-size: 60px;
 }
@@ -238,6 +274,10 @@ body {
     width: 94%;
     /* background-color: green; */
     justify-content: space-evenly;
+}
+
+.container-piscina > img, .container-piso > img{
+    border-radius: 10px;
 }
 
 .container-piscina{
@@ -265,6 +305,18 @@ body {
 .container-torre{
     width: 30%;
     margin-bottom: 70px;
+}
+
+.title-oab, .title-biagio, .title-piscina {
+    opacity: 0; 
+    transform: translateX(100px); 
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+
+.animate-title {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 
