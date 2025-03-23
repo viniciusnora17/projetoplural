@@ -514,6 +514,10 @@ ul {
         max-width: 100vw !important;
     }
 
+    #carrossel{
+        height: 10vh !important;
+    }
+
   #carrossel > h1{
     font-size: 1.8em !important;
     font-weight: 500;
