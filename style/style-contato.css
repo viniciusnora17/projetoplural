@@ -84,21 +84,104 @@ body {
     color: rgb(92, 91, 91);
 }
 
-.titulo-plural{
+/* main  */
+.container-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+    position: relative; 
+}
+
+.absolute-contato {
+    position: absolute;
+    left: 100px;
+    top: 220px;
+    z-index: 10; 
     font-size: 35px;
+    color: white; 
 }
 
-.titulo-mapa{
-    font-size: 62px;
-    margin-bottom: 30px;
-    font-family: "Noto Sans", serif;
-    font-weight: 300;
+#img-escritorio {
+    width: 90% !important;
+    border-radius: 15px;
+    filter: brightness(0.60); 
+}
+
+.info-contato{
+    margin-top: 50px;
+    height: 80vh;
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: green; */
+    
+}
+
+.container{
+    margin-left: 150px; 
+    height: 100%; 
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.telefone, .email, .escritorio > p{
+    color: rgb(65, 62, 62);
 }
 
 
-#titulo-dif{
-    color: #04b0b3;
+.entre-contato{
+    color: #000;
+    text-decoration: none;
 }
+
+.entre-contato:hover{
+    color: rgb(66, 66, 66)
+}
+
+.email-contato{
+    color: #000;
+}
+
+.localizacao{
+    color: #000;
+    text-decoration: none;
+}
+
+.localizacao:hover{
+    color: rgb(66, 66, 66)
+}
+
+.contato-web{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+}
+
+#container-mapa{
+    width: 50%;
+}
+
+.mapa{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.title-contato{
+    font-size: 83px;
+    font-weight: 600;
+}
+
+.container-title{
+    width: 28%;
+}
+
 
 .wpp-contato{
     display: flex;
@@ -120,89 +203,7 @@ body {
 }
 
 
-.entre-contato{
-    background-color: #fff;
-    width: 80vw;
-    justify-content: space-around;
-    display: flex;
-    align-items: center;
-    height: 60vh;
-    
-}
 
-
-#container-contatos{
-    background-color: rgb(244, 250, 250);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: "Noto Sans", serif;
-}
-
-#endereco{
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    width: 260px;
-    font-size: 18px;
-}
-
-#endereco:hover{
-    color: rgb(46, 46, 46);
-}
-
-
-.endereco-contatos{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.midias-sociais{
-    width: 30px;
-}
-
-#midias{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-
-}
-
-.icones-contatos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 3px;
-}
-
-
-.hyperlink-icon{
-    text-decoration: none;
-    color: black;
-    
-}
-
-.titulo-contato{
-    margin-top: 100px;
-    margin-bottom: 20px;
-    display: flex;
-    gap: 10px;
-}
-
-.mapa{
-    width: 650px;
-    height: 350px;
-    
-}
 
 .logo-icons-container{
     display: flex;

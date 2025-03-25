@@ -96,7 +96,7 @@ body {
 
 .carousel-wrapper {
     display: flex;
-    transition: transform 2s ease-in-out; /* A transição agora leva 3 segundos */
+    transition: transform 2s ease-in-out;
 }
 
 .img-carrossel {
@@ -137,14 +137,14 @@ body {
     height: 65vh;
     max-width: 100%;
     gap: 25px;
-    opacity: 0; /* Começa invisível */
-    transform: translateY(-50px); /* Começa acima */
-    transition: opacity 0.8s ease-out, transform 0.8s ease-out; /* Transição suave */
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out; 
 }
 
 #sobre-nos.aparecer {
     opacity: 1;
-    transform: translateY(0); /* Move para posição original */
+    transform: translateY(0); 
 }
 
 
@@ -199,13 +199,13 @@ body {
 
 .container-escritorio {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Alinha verticalmente */
-    flex-wrap: nowrap; /* Mantém os itens na mesma linha */
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: nowrap; 
     width: 90%;
     max-width: 1200px;
-    margin: 150px auto; /* Centraliza */
-    gap: 40px; /* Espaço entre texto e imagem */
+    margin: 150px auto;
+    gap: 40px;
     position: relative;
 }
 
@@ -214,7 +214,7 @@ body {
     height: auto;
     border-radius: 5px;
     opacity: 0;
-    transform: translateX(200px); /* Mantém a animação */
+    transform: translateX(200px); 
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
@@ -225,7 +225,7 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    transform: translateX(-200px); /* Mantém a animação */
+    transform: translateX(-200px); 
     opacity: 0;
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }

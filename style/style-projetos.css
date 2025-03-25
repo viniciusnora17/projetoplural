@@ -90,10 +90,35 @@ body {
 
 .titulo-projeto{
     margin-top: 11%;
-    font-size: 62px;
-    text-align: center;
+    font-size: 92px;
     font-family: "Noto Sans", serif;
     font-weight: 300;
+    margin-left: 400px;
+}
+
+.titulo-plural{
+    font-weight: 300;
+    font-size: 90px;
+    margin-left: 630px;
+    color: #068285;
+}
+
+.c{
+    font-size: 30px;
+    margin-left: 950px;
+    margin-top: -100px;
+    color: #4d4d4d;
+}
+
+.eng-arq{
+    margin-left: 405px;
+    margin-top: -25px;
+    color: #2b2a2a;
+}
+
+.title{
+    height: 40vh;
+    
 }
 
 .line, .line2, .line3 {
@@ -106,9 +131,9 @@ body {
     transition: opacity 0.5s ease-out;
 }
 
-.line {bottom: 340px;}
-.line2 { bottom: -350px; }
-.line3 { bottom: -1120px; }
+.line {bottom: 190px;}
+.line2 { bottom: -500px; }
+.line3 { bottom: -1275px; }
 
 @keyframes growLine {
     from {
@@ -148,7 +173,7 @@ body {
 .title-oab{
     position: absolute !important;
     left: 70px;
-    top: 360px;
+    top: 510px;
     font-weight: 300;
     font-size: 60px;
     font-family: "Roboto", sans-serif;
@@ -198,7 +223,7 @@ body {
     position: absolute !important;
     left: 70px;
     font-family: "Noto Sans", sans-serif;
-    bottom: -345px;
+    bottom: -495px;
     font-weight: 300;
     font-size: 60px;
 }
@@ -255,7 +280,7 @@ body {
 .title-piscina{
     position: absolute !important;
     left: 70px;
-    bottom: -1120px;
+    bottom: -1275px;
     font-weight: 300;
     font-size: 60px;
 }
