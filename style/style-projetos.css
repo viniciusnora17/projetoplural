@@ -93,26 +93,26 @@ body {
     font-size: 92px;
     font-family: "Noto Sans", serif;
     font-weight: 300;
-    margin-left: 400px;
+    margin-left: 28%;
 }
 
 .titulo-plural{
     font-weight: 300;
     font-size: 90px;
-    margin-left: 630px;
+    margin-left: 45%;
     color: #068285;
 }
 
 .c{
     font-size: 30px;
-    margin-left: 950px;
-    margin-top: -100px;
+    margin-left: 67%;
+    margin-top: -8%;
     color: #4d4d4d;
 }
 
 .eng-arq{
-    margin-left: 405px;
-    margin-top: -25px;
+    margin-left: 28.5%;
+    font-size: 16px;
     color: #2b2a2a;
 }
 
@@ -131,9 +131,9 @@ body {
     transition: opacity 0.5s ease-out;
 }
 
-.line {bottom: 190px;}
-.line2 { bottom: -500px; }
-.line3 { bottom: -1275px; }
+.line {bottom: 25%;}
+.line2 { top: 156%; }
+.line3 { bottom: -165%; }
 
 @keyframes growLine {
     from {
@@ -172,10 +172,10 @@ body {
 
 .title-oab{
     position: absolute !important;
-    left: 70px;
-    top: 510px;
+    left: 5%;
+    top: 66%;
     font-weight: 300;
-    font-size: 60px;
+    font-size: 3.8em;
     font-family: "Roboto", sans-serif;
 }
 
@@ -188,44 +188,15 @@ body {
 }
 
 
-
-.text-overlay {
-    position: absolute;
-    top: 400px;
-    height: 15%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.6); 
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
-
-}
-
-.container-oab{
-    width: 45%;
-}
-
-.card-container{
-    opacity: 1;
-    width: 100%;
-    position: absolute;
-    background-color: #128c7e;
-    top: 850px;
-}
-
-
 /* SECTION 2 */
 
 .title-biagio{
     position: absolute !important;
-    left: 70px;
+    left: 5%;
     font-family: "Noto Sans", sans-serif;
-    bottom: -495px;
+    top: 153%;
     font-weight: 300;
-    font-size: 60px;
+    font-size: 3.8em;
 }
 
 #sec{
@@ -236,7 +207,7 @@ body {
 
 #section-fotos{
    
-    margin-top: 40px;
+    margin-top: 3%;
     width: 96.5%;
     height: 80vh;
     justify-content: space-evenly;
@@ -279,8 +250,8 @@ body {
 
 .title-piscina{
     position: absolute !important;
-    left: 70px;
-    bottom: -1275px;
+    left: 5%;
+    top: 255%;
     font-weight: 300;
     font-size: 60px;
 }
@@ -534,357 +505,184 @@ ul {
 /* RESPONSIVIDADE */
 
 
-@media (max-width: 390px){
+@media (min-width: 1024px) {
 
-    .title-oab{
-        top: 260px;
-        font-size: 55px;
+    #header{
+        width: 100%;
+    }
+   
+    body{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    .title{
+        height: 17vh;
+    }
+
+    .c{
+        margin-left: 75%;
+        margin-top: -10% !important;
+        width: 10%;
+    }
+
+    .eng-arq{
+        width: 20%;
+        margin-left: 28%;
+        margin-top: -1%;
     }
 
     #fotos-projetos{
-        height: 40vh !important;
-        margin-top: 130px;
+        height: 60vh;
     }
 
-    .card{
-        width: 320px !important;
+    .title-oab{
+        top: 35%;
+        left: 7%;
+    }
+
+    .line{
+        top: 35%;
+        height: 6% !important;
     }
 
     #section-fotos{
-        margin-top: 130px;
-        height: 100vh !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .container-torre{
-        height: 160px;
+        height: 33vh;
     }
 
     .title-biagio{
-        top: 830px;
-        left: 40px;
-        height: 10vh;
-        font-size: 50px;
+        top: 80%;
+        left: 7%;
     }
 
-    .container-biagio{
-        width: 220px !important;
+    .line2{
+        top: 81%;
+        height: 6% !important;
     }
 
-    .container-construcao, .container-torre{
-        width: 220px !important;
+    #terceira-section{
+        height: 43vh !important;
+        margin-top: 15%;
     }
 
     .title-piscina{
-        font-size: 47px;
-        height: 13vh;
-        left: 40px;
+        top: 131%;
+        left: 7%;
     }
 
-    .container-piso{
-        width: 170px;   
+    .line3{
+        top: 131%;
+        height: 6% !important;
     }
 
-    #terceira-section{
-        /* background-color: green; */
-        margin-top: 160px !important;
-    }
     
 }
 
-
-@media(max-width: 480px){
-
-    body{
-        max-height: 100%;
-    }
-
-    
-    #header {
-        max-width: 100% !important;
-        height: 103px !important;
-        background-color: #fff;
-        display: flex;
-        justify-content: center;
-    }
-    
-    .container-logo {
-        width: 200px;
-    }
-    
-    #logo {
-        width: 60px;
-        margin-bottom: 15px;
-    }
-    
-    #logo-texto {
-        width: 100px;
-        height: 17px;
-    }
-
-    #eng-arq{
-        width: 95px !important;
-        height: 13px !important;
-    }
-    
-    .hiperlink {
-        font-size: 11px;
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    
-    .navbar {
-        width: 200px;
-        display: flex;
-        gap: 7px;
-        justify-content: space-around;
-    }
-
-    #projetos{
-        margin-top: 100px;
-    }
-
-    .traco-principal{
-        background-color: rgb(119, 119, 119);
-        margin-bottom: 13%;
-    }
+@media (min-width: 1520px) {
 
     #fotos-projetos{
-       
-        max-width: 100%;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
-        height: 90vh;
-    }
-
-    .zoom{
-        width: 80%;
+     height: 65vh !important;
     }
     
-    .container-terreno{
-        width: 70%;
+    .c{
+     margin-left: -15%;
     }
 
-    .container-antes{
-        width: 76%;
+    .eng-arq{
+     margin-top: -40% !important;
     }
 
-    /* SECTION2 */
-
-    #section-fotos{
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: space-around;
-        flex-direction: column;
+    .line{
+     left: 6%;
     }
 
-    .container-terreno2{
-        width: 70%;
-    }
-
-    .container-calcada{
-        width: 45%;
-    }
-
-    .container-interior-img{
-        width: 74%;
-    }
-
-    #terceira-section{
-        display: flex;
-        justify-content: space-between !important;
-        gap: 20px;
-        flex-direction: column;
-        align-items: center;
-        height: 130vh !important;
-        margin-top: 130px;
-    }
-
-    .container-piscina{
-        width: 47%;
-    }
-    
-    .container-bauer{
-        width: 60%;
+    #sec{
+     height: 60vh;
     }
 
     .container-torre{
-        width: 50%;
+     margin-bottom: 18%;
     }
-   
+
+    .title-biagio{
+     top: 95%;
+    }
+
+    .line2{
+     left: 6%;
+     top: 96%;
+    }
+
+    #sec3{
+     height: 70vh;
+    }
+
+    #terceira-section{
+     height: 63vh  !important;
+    }
+
+    .title-piscina{
+     top: 168%;
+    }
+
+    .line3{
+     top: 168%;
+     left: 6%;
+    }
+
+ }
+
+ @media(min-width: 1920px){
     
-/* FOOTER */
-
-#container-footer{
-    width: 100%;
-    margin: auto;
-    height: 150px;
-}
-
-#conteudo-footer{
-    width: 100%;
-}
-
-.itens-footer{
-    width: 25%;
-}
-
-.logo-icons-container{
-    width: 0.1px;
-
- }
-
- #container-contatos{
-    height: 710px !important;
- }
-
- .traco{
-     width: 80% !important; 
-     margin-top: 20px;
- } 
-
-
- .icons{
-     font-size: 20px;
-     text-align: center;
-     width: 20px;
-     margin-top: 1%;
-     margin-left: -85vw;
- }
-
- #wpp{
-    font-size: 1px !important; 
-  }
-
- .hiperlinks-footer{
-    display: flex;
-    width: 408px;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.hiperlink-footer{
-    font-size: 10px !important;
-    display: flex;
-    justify-content: space-between;
-}
-
- .footer-header{
-     display: flex;
-     justify-content: center !important;
-     gap:4px;
-     margin-top: 3px;
-     margin-right: 40px;
- }
-
- .privacy-politics > a{
-     font-size: 10px !important; 
-
- }
-
- .privacy-politics
- {
-    margin-left: 20px;
-    width: 196px !important;
-   
- }
-
- #textos-footer{
-     width: 100%;
-     display: flex;
-     justify-content: space-evenly;
-     height: 65px;
- }
-
- #copyright{
-    width: 331px;
-     text-align: center;
-     margin: auto;
-     margin-top: 35px;
- }
-
- .text-copyright{
-     font-size: 10px !important;
- }
-
- #face{
-    font-size: 0.1px !important;
-    color: white;
- }
-
- #insta{
-    font-size: 0.1px !important;
-    color: white;
- }
- 
-}
-
-@media (max-width: 768px) {
-    .titulo-projeto{
-        margin-bottom: -20px;
+    .titulo-projeto, .titulo-plural{
+        font-size: 8em;
     }
+
+    #fotos-projetos{
+        height: 95vh !important;
+    }
+
+    .title-oab{
+        top: 48%;
+    }
+
+    .line{
+        top: 48%
+    }
+
+    .title-biagio{
+        top: 122%;
+    }
+
+    .line2{
+        top: 123%;
+    }
+
+    .container-torre{
+        margin-top: -4%;
+    }
+
+    #sec3{
+        height: 100vh;
+        margin-top: 10%;
+    }
+
+    .container-piscina{
+        height: 80vh;
+    }
+
+    .container-piso{
+        /* background-color: green; */
+        height: 57vh;
+        margin-bottom: 17.5%;
+    }
+
+    .title-piscina{
+        top: 215%;
+    }
+
+    .line3{
+        top: 215%;
+    }
+
 }
-
-@media (max-width: 1920px) {
-   h1.titulo-plural{
-    margin-left: 800px;
-    font-size: 98px;
-   }
-
-   h1.titulo-projeto{
-    margin-left: 550px;
-   }
-
-   .c{
-    margin-left: 1150px;
-    margin-top: -120px;
-   }
-
-   p.eng-arq{
-    margin-left: 555px;
-   }
-
-   .line{
-    margin-left: 20px;
-    margin-bottom: 30px;
-   }
-
-   .title-oab{
-    margin-top: 50px;
-    margin-left: 20px;
-   }
-
-   .line2{
-    margin-bottom: -50px;
-    margin-left: 20px;
-   }
-
-   .title-biagio{
-    margin-left: 20px;
-    margin-bottom: -45px;
-   }
-
-   .container-torre{
-    margin-top: -65px;
-   }
-
-   .title-piscina{
-    margin-left: 20px;
-    margin-bottom: -120px;
-   }
-
-   .line3{
-    margin-bottom: -120px;
-    margin-left: 20px;
-   }
-
-   .container-piso{
-    height: 78%;
-   }
-}
-
