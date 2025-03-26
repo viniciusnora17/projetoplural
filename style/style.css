@@ -504,28 +504,40 @@ ul {
 
 /* //RESPONSIVIDADE */
 
-@media(max-width: 390px){
+@media(min-width: 360px){
 
 
-    .container-escritorio {
-        display: none;
+    html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
     }
 
-    body {
-        height: 100%;
-        max-width: 100vw !important;
+    #header{
+        max-width: 360px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 10%;
+    }
+    .container-logo{
+        width: 0.1px;
     }
 
-    #carrossel{
-        height: 10vh !important;
+
+    #logo-texto{
+        width: 0.1px !important;
     }
 
-  #carrossel > h1{
-    font-size: 1.8em !important;
-    font-weight: 500;
-    width: 300px;
-    top: 155px !important;
-  }
+    #eng-arq{
+        width: 1px !important;
+        height: 1px !important;
+    }
+
+    #img-escritorio{
+        height: 20vh;
+    }
 
   #sobre-nos{
     height: 300px !important;
@@ -535,22 +547,36 @@ ul {
     height: 230px !important;
   }
 
-  .footer-header{
-    margin-right: -30px !important;
-  }
- 
-  .privacy-politics{
-    margin-left: -20px !important;
+  #copyright{
+    height: 1vh !important;
+}
+
+#container-footer{
+    height: 1vh !important;
+    margin-bottom: 50%;
+}
+
+footer{
+    height: 1vh;
+}
+
+.privacy-politics > a{
+    font-size: 0.1px;
+}
+
+
+.bi-whatsapp, .bi-facbook, .bi-instagram, .icon-content > a{
+    width: 0.1px !important; 
+    /* color: #fff !important; */
   }
 
-  #wpp{
-    font-size: 1px !important; 
+  #footer-logo{
+    width: 0.1px;
   }
 
-  .img{
-    width: 1px !important;
+  .logo-icons-container{
+    width: 0.1px;
   }
-  
   
 
 }

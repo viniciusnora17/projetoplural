@@ -504,6 +504,162 @@ ul {
 }
 /* RESPONSIVIDADE */
 
+@media(min-width: 360px){
+    #header{
+        max-width: 360px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .navbar{
+        display: flex;
+        /* background-color: green; */
+        width: 100%;
+        margin-right: 30px;
+    }
+
+    #eng-arq{
+        width: 1px !important;
+        height: 1px !important;
+    }
+
+    #logo-texto{
+        width: 1px !important;
+    }
+
+    #logo{
+        margin-left: 42px;
+    }
+
+    .hiperlink{
+        font-size: 10px;
+    }
+
+    .titulo-projeto{
+        font-size: 2.4em;
+        margin-top: 40%;
+    }
+
+    .title{
+        height: 20vh;
+    }
+
+    #fotos-projetos{
+        height: 40vh;
+        
+    }
+
+    .line{
+        margin-bottom: 48%;
+        left: 3%;
+        height: 4% !important;
+    }
+
+    .line2{
+        top: 82%;
+        left: 3%;
+        height: 4% !important;
+    
+    }
+
+    .line3{
+        top: 120%;
+        left: 3%;
+        height: 4% !important;
+    }
+
+    .title-oab{
+        font-size: 1.3em;
+        top: 47%;
+    }
+
+    .titulo-plural{
+        font-size: 2.4em;
+    }
+
+    .c{
+        font-size: 0.1px;
+    }
+
+    .eng-arq{
+        font-size: 0.1px;
+    }
+
+    #section-fotos{
+        height: 30vh;
+    }
+
+    .container-torre{
+        margin-top: 27%;
+    }
+
+    .title-biagio{
+        font-size: 1.3em;
+        top: 82%;
+    }
+
+    #terceira-section{
+        height: 28vh !important;
+    }
+
+    .title-piscina{
+        font-size: 1.3em;
+        top: 120%;
+    }
+
+    .traco{
+        width: 80%;
+    }
+
+    .hiperlink-footer{
+        
+        font-size: 0.1px;
+    }
+
+    .hiperlinks-footer{
+        width: 0.1px;
+    }
+
+    .text-copyright{
+        margin-top: -20%;
+        height: 10vh;
+        text-align: center;
+    }
+
+    #copyright{
+        height: 1vh !important;
+    }
+
+    #container-footer{
+        height: 1vh !important;
+        margin-bottom: 50%;
+    }
+
+    footer{
+        height: 1vh;
+    }
+
+    .privacy-politics > a{
+        font-size: 0.1px;
+    }
+
+
+    .bi-whatsapp, .bi-facbook, .bi-instagram, .icon-content > a{
+        width: 0.1px !important; 
+        /* color: #fff !important; */
+      }
+    
+      #footer-logo{
+        width: 0.1px;
+      }
+
+      .logo-icons-container{
+        width: 0.1px;
+      }
+
+}
 
 @media (min-width: 1024px) {
 
