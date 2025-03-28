@@ -504,7 +504,7 @@ ul {
 }
 /* RESPONSIVIDADE */
 
-@media(min-width: 360px){
+@media(max-width: 360px){
     #header{
         max-width: 360px;
         display: flex;
@@ -661,7 +661,7 @@ ul {
 
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 
     #header{
         width: 100%;
@@ -734,7 +734,7 @@ ul {
     
 }
 
-@media (min-width: 1520px) {
+@media (max-width: 1520px) {
 
     #fotos-projetos{
      height: 65vh !important;
@@ -799,15 +799,33 @@ ul {
     }
 
     .title-oab{
-        top: 48%;
+        top: 64%;
+        font-size: 70px;
     }
 
     .line{
-        top: 48%
+        top: 65%;
+        left: 4%;
     }
 
     .title-biagio{
-        top: 122%;
+        top: 162%;
+        font-size: 70px;
+    }
+
+    .line2{
+        top: 163% !important;
+        left: 4%;
+    }
+
+    #sec{
+        /* background-color: green; */
+        height: 110vh;
+    }
+
+    .container-piso{
+        margin-top: 16%;
+        height: 78vh !important;
     }
 
     .line2{
@@ -817,7 +835,7 @@ ul {
     .container-torre{
         margin-top: -4%;
     }
-
+    
     #sec3{
         height: 100vh;
         margin-top: 10%;
@@ -829,16 +847,19 @@ ul {
 
     .container-piso{
         /* background-color: green; */
-        height: 57vh;
-        margin-bottom: 17.5%;
+        height: 77.5vh !important;
+        width: 23%;
+        margin-bottom: 18%;
     }
 
     .title-piscina{
-        top: 215%;
+        top: 289%;
+        font-size: 70px !important;
     }
 
     .line3{
-        top: 215%;
+        top: 289%;
+        left: 4%;
     }
 
 }

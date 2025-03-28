@@ -402,7 +402,7 @@ ul {
     color: rgb(46, 46, 46);
 }
 
-@media(min-width: 360px){
+@media(max-width: 360px){
 
 
     html, body {
@@ -524,7 +524,7 @@ ul {
   
 }
 
-@media (min-width: 1024px){
+@media (max-width: 1024px){
     .info-contato{
         height:70vh;
     }
@@ -536,11 +536,21 @@ ul {
     
 }
 
-@media (min-width: 1920px){
+@media (max-width: 1920px){
     .container{
-        height: 40vh;
+        height: 50vh; 
     }
 
+    #contato{
+        margin-left: 10%;
+        font-size: 3em;
+        
+    }
+
+    .title-contato{
+        font-size: 6.6em;
+    }
+    
     .info-contato{
         height: 50vh;
     }
@@ -548,5 +558,9 @@ ul {
     .icons{
         
         margin-right: 3%;
+    }
+
+    footer{
+        margin-top: 10%;
     }
 }
