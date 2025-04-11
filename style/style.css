@@ -19,6 +19,7 @@ body {
     max-width: 100%;
 }
 
+
 #header{
 
     position: fixed; 
@@ -154,7 +155,7 @@ body {
 }
 
 .title-sobrenos{
-    font-size: 3em;
+    font-size: 3.7em;
 }
 
 .paragrafo-sobrenos{
@@ -230,11 +231,10 @@ body {
     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
 }
 
-
 /* botao personalizado */
 
 button {
-    margin-top: 20px;
+
     background: #02e5e9;
     font-family: inherit;
     padding: 0.6em 1.3em;
@@ -245,7 +245,7 @@ button {
     border-radius: 0.4em;
     box-shadow: 0.1em 0.1em;
     cursor: pointer;
-    width: 50%;
+    width: 48%;
 
 
   }
@@ -528,11 +528,6 @@ ul {
 
     #logo-texto{
         width: 0.1px !important;
-    }
-
-    #eng-arq{
-        width: 1px !important;
-        height: 1px !important;
     }
 
     #img-escritorio{
@@ -1028,65 +1023,11 @@ footer{
   }
 
 
-  @media (max-width: 1440px) {
-
-    .text-carrossel{
-        position: absolute;
-        left: 80%;
-        top: 400px;
-        font-size: 20px;
-    }
-
-    .itens-footer{
-        width: 98vw;
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .img-sobre-nos{
-        width: 30%;
-    }
-
-    #face{
-        font-size: 1em;
-    }
-
-    #insta{
-        font-size: 1.1em;
-    }
-
-    .sobre-nos-silas > p{
-        font-size: 19px;
-        width: 190px;
- 
-    }
-    
     
     @media (max-width: 1920px) {
-        .text{
-            font-size: 10px !important;
-            margin-top: -20px !important;
-        }
-
-          .text {
-        font-size: 10px !important; 
-        margin-top: -20px !important; 
-    }
-
-    .container-escritorio {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .container-texto-escritorio {
-        text-align: center;
-    }
-
-    .logo-icons-container{
-        width: 10px;
-    }
+        
     
       
     }
-  }
+  
 

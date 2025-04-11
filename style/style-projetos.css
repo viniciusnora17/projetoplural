@@ -88,61 +88,47 @@ body {
 }
 
 
+
 .titulo-projeto{
-    margin-top: 11%;
-    font-size: 92px;
+    margin-top: 8%;
+    font-size: 7em;
     font-family: "Noto Sans", serif;
     font-weight: 300;
-    margin-left: 28%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-projeto, .titulo-plural {
+    visibility: hidden;
+}
+
+.container-plural{
+    display: flex;
+    justify-content: center;
 }
 
 .titulo-plural{
     font-weight: 300;
-    font-size: 90px;
-    margin-left: 45%;
+    font-size: 7em;
     color: #068285;
 }
 
 .c{
-    font-size: 30px;
-    margin-left: 67%;
-    margin-top: -8%;
     color: #4d4d4d;
+    font-size: 2em;
 }
 
 .eng-arq{
-    margin-left: 28.5%;
-    font-size: 16px;
+    font-size: 1.1em;
+    margin-top: 1%;
     color: #2b2a2a;
 }
 
 .title{
     height: 40vh;
-    
 }
 
-.line, .line2, .line3 {
-    background-color: #ffdc00;
-    width: 3px;
-    height: 0;
-    position: absolute;
-    left: 55px;
-    opacity: 0;
-    transition: opacity 0.5s ease-out;
-}
-
-.line {bottom: 25%;}
-.line2 { top: 156%; }
-.line3 { bottom: -165%; }
-
-@keyframes growLine {
-    from {
-        height: 0;
-    }
-    to {
-        height: 9%;
-    }
-}
 
 .animate {
     animation: growLine 1.5s ease-out forwards;
@@ -162,7 +148,7 @@ body {
 
 #fotos-projetos{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     justify-content:center;
     align-items: center;
     gap: 30px;
@@ -171,12 +157,11 @@ body {
 }
 
 .title-oab{
-    position: absolute !important;
-    left: 5%;
-    top: 66%;
     font-weight: 300;
     font-size: 3.8em;
-    font-family: "Roboto", sans-serif;
+    margin-left: 5%;
+    margin-top: 5%;
+
 }
 
 
@@ -191,10 +176,9 @@ body {
 /* SECTION 2 */
 
 .title-biagio{
-    position: absolute !important;
-    left: 5%;
+    margin-top: 7%;
+    margin-left: 5%;
     font-family: "Noto Sans", sans-serif;
-    top: 153%;
     font-weight: 300;
     font-size: 3.8em;
 }
@@ -206,10 +190,9 @@ body {
 }
 
 #section-fotos{
-   
-    margin-top: 3%;
+
     width: 96.5%;
-    height: 80vh;
+    height: 85vh;
     justify-content: space-evenly;
     align-items: center;
     display: flex;
@@ -221,11 +204,6 @@ body {
     border-radius: 10px; 
 }
 
-.container-torre{
-    width: 31% !important;
-    height: 81%;
-    
-}
 
 .container-torre > img, .container-biagio > img{
     border-radius: 10px;
@@ -249,9 +227,9 @@ body {
 /* TERCEIRA-SECTION */
 
 .title-piscina{
-    position: absolute !important;
-    left: 5%;
-    top: 255%;
+
+    margin-top: 5%;
+    margin-left: 5%;
     font-weight: 300;
     font-size: 60px;
 }
@@ -260,37 +238,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
-#terceira-section{
-    margin-top: 70px;
+#terceira-section {
     display: flex;
-    align-items: center;
-    height: 100vh !important;
-    width: 94%;
-    /* background-color: green; */
-    justify-content: space-evenly;
-}
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+    padding: 20px;
+    height: 85vh;
+  }
 
 .container-piscina > img, .container-piso > img{
     border-radius: 10px;
 }
 
-.container-piscina{
-    width: 23%;
-    margin-bottom: 10px;
-}
+.container-piscina {
+    flex: 1 1 250px; 
+    max-width: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .container-piscina img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 12px;
+  }
 
 .img-piscina{
     width: 100%;
     height: 100% !important; 
-}
-
-.container-piso{
-    
-    width: 22%;
-    height: 71%;
-    margin-bottom: 15px;
 }
 
 
@@ -301,6 +282,13 @@ body {
 .container-torre{
     width: 30%;
     margin-bottom: 70px;
+}
+
+#piso {
+    width: 100%;
+    height: 69vh; 
+    display: block;
+    object-fit: cover;
 }
 
 .title-oab, .title-biagio, .title-piscina {
@@ -505,6 +493,14 @@ ul {
 /* RESPONSIVIDADE */
 
 @media(max-width: 360px){
+    
+    html, body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden; 
+    }
+    
     #header{
         max-width: 360px;
         display: flex;
@@ -734,61 +730,9 @@ ul {
     
 }
 
-@media (max-width: 1520px) {
 
-    #fotos-projetos{
-     height: 65vh !important;
-    }
-    
-    .c{
-     margin-left: -15%;
-    }
 
-    .eng-arq{
-     margin-top: -40% !important;
-    }
-
-    .line{
-     left: 6%;
-    }
-
-    #sec{
-     height: 60vh;
-    }
-
-    .container-torre{
-     margin-bottom: 18%;
-    }
-
-    .title-biagio{
-     top: 95%;
-    }
-
-    .line2{
-     left: 6%;
-     top: 96%;
-    }
-
-    #sec3{
-     height: 70vh;
-    }
-
-    #terceira-section{
-     height: 63vh  !important;
-    }
-
-    .title-piscina{
-     top: 168%;
-    }
-
-    .line3{
-     top: 168%;
-     left: 6%;
-    }
-
- }
-
- @media(min-width: 1920px){
+ @media (max-width: 1920px) and (min-width: 1600px) {
     
     .titulo-projeto, .titulo-plural{
         font-size: 8em;

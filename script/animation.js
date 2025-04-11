@@ -26,3 +26,16 @@ document.addEventListener("DOMContentLoaded", () => {
     
     document.querySelectorAll(".title-oab, .title-biagio, .title-piscina").forEach(el => observer.observe(el));
 });
+
+gsap.fromTo(".titulo-projeto", 
+    { visibility: "visible", opacity: 0, y: 100 }, 
+    { opacity: 1, y: 0, duration: 1.5, ease: "power3.out", delay: 0.3 }
+);
+
+gsap.fromTo(".titulo-plural", 
+    { visibility: "visible", opacity: 0, y: 100 }, 
+    { opacity: 1, y: 0, duration: 1.5, ease: "power3.out", delay: 1 }
+);
+
+
+

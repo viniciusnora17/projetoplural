@@ -175,7 +175,7 @@ body {
 
 .title-contato{
     font-size: 83px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .container-title{
@@ -536,7 +536,7 @@ ul {
     
 }
 
-@media (max-width: 1920px){
+@media (max-width: 1920px) and (min-width: 1600px) {
     .container{
         height: 50vh; 
     }
