@@ -619,11 +619,12 @@ ul {
 
     .hiperlink-footer{
         
-        font-size: 0.1px;
+        display: none;
     }
+    
 
     .hiperlinks-footer{
-        width: 0.1px;
+        display: none;
     }
 
     .text-copyright{
@@ -631,36 +632,26 @@ ul {
         height: 10vh;
         text-align: center;
     }
-
-    #copyright{
-        height: 1vh !important;
-    }
-
-
-    footer{
-        height: 1vh;
-    }
-
     .privacy-politics > a{
         font-size: 0.1px;
     }
 
     #container-footer{
-        height: 100px;
+       height: 1px;
     }
 
 
     .bi-whatsapp, .bi-facbook, .bi-instagram, .icon-content > a{
-        width: 0.1px !important; 
+        display: none;
         /* color: #fff !important; */
       }
     
       #footer-logo{
-        width: 0.1px;
+        display: none;
       }
 
       .logo-icons-container{
-        width: 0.1px;
+        display: none;
       }
 
 }

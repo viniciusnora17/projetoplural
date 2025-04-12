@@ -467,13 +467,12 @@ ul {
     }
 
     .info-contato{
-        height: 60vh;
+        height: 78vh !important;
         display: flex;
         flex-direction: column;
     }
 
     .container{
-        height: 60vh;
         width: 100%;
         
     }
@@ -494,6 +493,7 @@ ul {
     .mapa, #container-mapa{
        width: 300px !important;
        height: 20vh !important;
+       margin-left: 5%;
     }
 
     .traco{

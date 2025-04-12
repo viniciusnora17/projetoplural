@@ -719,11 +719,7 @@ ul {
  
  
      .footer-header{
-         display: flex;
-         justify-content: center !important;
-         gap: 5px;
-         margin-top: 1px;
-         margin-right: 40px;
+        display: none;
      }
 
 
@@ -739,26 +735,24 @@ ul {
      .text-copyright{
          font-size: 13px !important;
          height: 80px;
-         width: 390px;
+         max-width: 480px !important;
      }
 
      .icon{
-        font-size: 0.1px !important;
-        color: white;
+        display: none;
      }
 
      #face{
-        font-size: 0.1px;
+        display: none;
      }
 
 
   #insta{
-        font-size: 0.1px !important;
-        width: 0.1px !important;
+    display: none;
      }
 
      .icons{
-        width: 0.1px;
+       display: none;
      }
      
  
