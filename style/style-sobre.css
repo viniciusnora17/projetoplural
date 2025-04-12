@@ -523,23 +523,6 @@ ul {
 }
 
 
-@media(max-width: 390px){
-    #copyright{
-        width: 380px !important;
-    }
-
-    .bi-whatsapp, .bi-facbook, .bi-instagram, .icon-content > a{
-        width: 0.1px !important; 
-        /* color: #fff !important; */
-      }
-
-      .p-burocracia{
-        width: 250px !important;
-      }
-
-    
-
-}
 
 
 /* RESPONSIVIDADE */
@@ -595,8 +578,14 @@ ul {
         justify-content: space-around;
     }
 
+    .titulo-sobre{
+        font-size: 70px !important;
+        height: 70px;
+    }
+
     #sobre{
         margin-top: 100px;
+        height: 120px;
     }
 
     .primeiro-container{
@@ -604,14 +593,23 @@ ul {
     }
 
     #img-pai{
-        width: 200px !important;
+        width: 160px !important;
     }
 
     .container-texto{
-        font-size: 0.55em;
         width: 42vw;
         /* background-color: green; */
         height: 20vh !important;
+    }
+
+    .container-texto > h1{
+        font-size: 25px;
+        width: 170px;
+    }
+    
+    .container-texto > p{
+        font-size: 8px;
+        width: 175px;
     }
 
     .silas-samuel{
@@ -633,6 +631,11 @@ ul {
         
     }
 
+    .containersegundo-texto > h1{
+        font-size: 25px;
+        text-align: center;
+    }
+
     .container{
         width: 100%;
         height: 20vh;
@@ -644,22 +647,26 @@ ul {
 
     .segundo-container{
         height: 30vh;
+        width: 100%;
     }
 
-    .containersegundo-texto > h2{
-        font-size: 26.4px;
-        text-align: center;
-       
-    }
 
     .containersegundo-texto > p{
-        font-size: 8.8px;
+        font-size: 8px;
         text-align: center;
        
     }
 
-    .container-burocracia{
-        margin-top: -120px;
+    .p-burocracia{
+        width: 200px !important;
+    }
+
+    .text-burocracia{
+        font-size: 25px;
+    }
+
+    .container-img-texto, .container-burocracia{
+        height: 30vh;
     }
 
     .container-burocracia > h1{
@@ -679,18 +686,17 @@ ul {
     /* FOOTER */
 
     .logo-icons-container{
-        width: 0.1px;
+        display: none;
  
      }
      
      #footer-logo{
-        width: 01px !important;
+        display: none;
      }
      
      
      .traco{
-         width: 80% !important; 
-         margin-top: 55px !important;   
+        display: none;
      } 
  
      footer{
@@ -698,22 +704,17 @@ ul {
      }
  
      .hiperlinks-footer{
-         display: flex;
-         align-items: center !important;
-         justify-content: space-around;
-         width: 408px;
+        display: none;
      }
  
      .hiperlink-footer{
-         font-size: 10px !important;
-         display: flex;
-         justify-content: space-between;
-         margin-top: 5px;
+        display: none;
          
      }
 
      #container-footer{
         margin-top: -10px !important;
+        height: 100px;
      }
  
  
@@ -724,23 +725,8 @@ ul {
          margin-top: 1px;
          margin-right: 40px;
      }
- 
-     .privacy-politics > a{
-         font-size: 10px;
- 
-     }
 
-     .privacy-politics{
-        width: 196px;
-     }
- 
-     #textos-footer{
-         width: 100%;
-         display: flex;
-         justify-content: space-evenly;
-         margin-right: 30px;
-         height: 65px;
-     }
+
  
      #copyright{
          text-align: center;
@@ -751,9 +737,9 @@ ul {
      }
  
      .text-copyright{
-         font-size: 10px !important;
+         font-size: 13px !important;
          height: 80px;
-         width: 331px;
+         width: 390px;
      }
 
      .icon{
