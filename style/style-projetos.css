@@ -87,8 +87,6 @@ body {
     color: rgb(92, 91, 91);
 }
 
-
-
 .titulo-projeto{
     margin-top: 8%;
     font-size: 7em;
@@ -106,42 +104,119 @@ body {
 .container-plural{
     display: flex;
     justify-content: center;
-}
-
-.titulo-plural{
-    font-weight: 300;
-    font-size: 7em;
-    color: #068285;
-}
-
-.c{
-    color: #4d4d4d;
-    font-size: 2em;
-}
-
-.eng-arq{
-    font-size: 1.1em;
-    margin-top: 1%;
-    color: #2b2a2a;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
 }
 
 .title{
-    height: 40vh;
-}
+    margin-top: 7% !important;
+    height: 70vh;
 
+}
 
 .animate {
     animation: growLine 1.5s ease-out forwards;
     opacity: 1; 
 }
 
+#projetos-plural{
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.7em;
+}
 
-.traco-principal{
-    background-color: rgb(119, 119, 119);
-    width: 80%;
-    height: 1px;
+.text-eng-arq{
+    color: black;
+    text-align: center;
+    font-weight: 400;
+    width: 60%;
+    font-size: 5.5em;
+}
+
+.text{
+    margin-top: 1%;
+    width: 36%;
+    color: rgb(71, 71, 71);
+    text-align: center;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+/* STATS */
+
+.see-projects{
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.counter-section {
+    background-color: #005c5c;
+    text-align: center;
+    padding: 60px 20px;
+    height: 70vh;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .stats-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 44vh;
+    margin-bottom: 10%;
+  }
+  
+  .title-counter {
+    color: white;
+    font-size: 2em;
+
+    font-weight: 300;
+  }
+
+  .text-counter{
+    margin-bottom: 5%;
+    width: 300px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
     margin: auto;
-    margin-top: 4em;
+
+  }
+  
+  .counter {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 300;
+  }
+  
+  .label {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #fff;
+  }
+  
+  .item {
+    background-color: green;
+    height: 35vh;
+    width: 18vw;
+  }
+
+.hiperlink-projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20%;
 }
 
 /* SECTION 1 */
@@ -157,59 +232,21 @@ body {
 
 .title-oab{
     font-weight: 300;
-    font-size: 3.8em;
-    margin-left: 5%;
-    margin-top: 5%;
+    font-size: 5em;
 
 }
 
-
-.card {
-    position: relative;
-    width: 45%;
-    overflow: hidden;
-    border-radius: 10px;
+.img-oab{
+    border-radius: 10px !important;
 }
 
 
 /* SECTION 2 */
 
 .title-biagio{
-    margin-top: 7%;
-    margin-left: 5%;
-    font-family: "Noto Sans", sans-serif;
+
     font-weight: 300;
-    font-size: 3.8em;
-}
-
-#sec{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#section-fotos{
-
-    width: 96.5%;
-    height: 85vh;
-    justify-content: space-evenly;
-    align-items: center;
-    display: flex;
-  
-}
-
-.container-biagio{
-    width: 31%;
-    border-radius: 10px; 
-}
-
-
-.container-torre > img, .container-biagio > img{
-    border-radius: 10px;
-}
-
-.container-construcao > img{
-    border-radius: 5px;
+    font-size: 75px;
 }
 
  .container-construcao{
@@ -227,67 +264,8 @@ body {
 
 .title-piscina{
 
-    margin-top: 5%;
-    margin-left: 5%;
     font-weight: 300;
-    font-size: 60px;
-}
-
-#sec3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#terceira-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 36px;
-    justify-content: center;
-    padding: 20px;
-    height: 85vh;
-  }
-
-.container-piscina > img, .container-piso > img{
-    border-radius: 10px;
-}
-
-.container-piscina {
-    flex: 1 1 250px; 
-    max-width: 300px;
-    border-radius: 12px;
-    overflow: hidden;
-  }
-
-  .container-piscina img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    border-radius: 12px;
-  }
-
-.img-piscina{
-    width: 100%;
-    height: 100% !important; 
-}
-
-
-.container-bauer{
-    width: 25%;
-}
-
-.container-torre{
-    width: 30%;
-    margin-bottom: 70px;
-}
-
-#piso {
-    width: 100%;
-    height: 69vh; 
-    display: block;
-    object-fit: cover;
+    font-size: 75px;
 }
 
 .title-oab, .title-biagio, .title-piscina {
@@ -539,120 +517,7 @@ ul {
     }
 
 
-    .titulo-projeto{
-        font-size: 70px;
-        margin-top: 30%;
-    }
 
-    .container-plural{
-        margin-left: 150px;
-        font-size: 25px;
-        width: 100px;
-    }
-
-    .c{
-        display: none;
-    }
-
-    .title{
-        height: 200px !important;
-    }
-
-    #fotos-projetos{
-        height: 18vh !important;
-        
-    }
-
-    .title-oab{
-        font-size: 1.3em;
-    }
-
-    .titulo-plural{
-        font-size: 2.4em;
-    }
-
-
-    .eng-arq{
-        font-size: 0.1px;
-    }
-
-    #section-fotos{
-        height: 21vh !important;
-    }
-
-    .container-torre{
-        margin-top: 27%;
-    }
-
-    .title-biagio{
-        font-size: 1.3em;
-        top: 82%;
-    }
-
-    #sec3{
-        height: 28vh !important;
-    }
-
-    .title-piscina{
-        font-size: 1.3em;
-        display: none;
-    }
-
-    #sec3{
-       display: none;
-
-    }
-
-    #terceira-section{
-        display: flex !important;
-        flex-direction: row !important;
-    }
-
-    .container-piscina{
-       display: none;
-    }
-
-    .traco{
-        width: 80%;
-        display: none;
-    }
-
-    .hiperlink-footer{
-        
-        display: none;
-    }
-    
-
-    .hiperlinks-footer{
-        display: none;
-    }
-
-    .text-copyright{
-        width: 100%;
-        height: 10vh;
-        text-align: center;
-    }
-    .privacy-politics > a{
-        font-size: 0.1px;
-    }
-
-    #container-footer{
-       height: 1px;
-    }
-
-
-    .bi-whatsapp, .bi-facbook, .bi-instagram, .icon-content > a{
-        display: none;
-        /* color: #fff !important; */
-      }
-    
-      #footer-logo{
-        display: none;
-      }
-
-      .logo-icons-container{
-        display: none;
-      }
 
 }
 
@@ -667,65 +532,7 @@ ul {
         max-height: 100%;
     }
     
-    .title{
-        height: 17vh;
-    }
-
-    .c{
-        margin-left: 75%;
-        margin-top: -10% !important;
-        width: 10%;
-    }
-
-    .eng-arq{
-        width: 20%;
-        margin-left: 28%;
-        margin-top: -1%;
-    }
-
-    #fotos-projetos{
-        height: 60vh;
-    }
-
-    .title-oab{
-        top: 35%;
-        left: 7%;
-    }
-
-    .line{
-        top: 35%;
-        height: 6% !important;
-    }
-
-    #section-fotos{
-        height: 33vh;
-    }
-
-    .title-biagio{
-        top: 80%;
-        left: 7%;
-    }
-
-    .line2{
-        top: 81%;
-        height: 6% !important;
-    }
-
-    #terceira-section{
-        height: 43vh !important;
-        margin-top: 15%;
-    }
-
-    .title-piscina{
-        top: 131%;
-        left: 7%;
-    }
-
-    .line3{
-        top: 131%;
-        height: 6% !important;
-    }
-
+    
     
 }
 

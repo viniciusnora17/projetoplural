@@ -39,3 +39,48 @@ gsap.fromTo(".titulo-plural",
 
 
 
+const counters = document.querySelectorAll(".counter");
+  let started = false;
+
+  const startCounting = () => {
+    counters.forEach(counter => {
+      const target = +counter.getAttribute("data-target");
+      const speed = 30;
+      let count = 0;
+
+      // Detectar sufixo com base no label
+      const label = counter.nextElementSibling.textContent.toLowerCase();
+      let suffix = "";
+
+      if (label.includes("satisfação")) {
+        suffix = "%";
+      } else if (target >= 1000) {
+        suffix = "K+";
+      }
+
+      const displayTarget = suffix === "K+" ? target / 1000 : target;
+
+      const updateCount = () => {
+        count += Math.ceil(displayTarget / 30);
+        if (count >= displayTarget) {
+          counter.textContent = displayTarget + suffix;
+        } else {
+          counter.textContent = count + suffix;
+          setTimeout(updateCount, speed);
+        }
+      };
+
+      updateCount();
+    });
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting && !started) {
+        startCounting();
+        started = true;
+      }
+    });
+  }, { threshold: 0.5 });
+
+  observer.observe(document.querySelector(".counter-section"));
