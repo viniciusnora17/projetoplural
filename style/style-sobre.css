@@ -5,7 +5,7 @@
 *{ 
     margin: 0;
     padding: 0;
-    font-family: "Noto Sans", serif;
+    font-family: "Roboto", sans-serif;
 
 }
 
@@ -118,11 +118,6 @@ body {
 
 }
 
-.since{
-    color: #4d4d4d;
-    animation: esquerda 1s ease-out 1.2s forwards;
-    opacity: 0; /* Começa invisível e anima */
-}
 
 .titulo-sobre{ 
     font-size: 9em;
@@ -151,40 +146,22 @@ body {
 }
 
 
-#img-pai{
-    width: 31% !important;
-    /* border-radius: 10px; */
-    animation: slideLeft 1.5s ease-out forwards;
-    opacity: 0;
-}
 
 .primeiro-container{
-    margin-top: 9% !important;
-    height: 80dvh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90%;
+    height: 100dvh;
+    width: 70%;
     margin: auto;
-    overflow: hidden;
+
 }
 
 .container-texto{
 
-    width: 35%;
-    text-align: left;
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    flex-direction: column;
-    height: 55dvh;
-    animation: slideRight 1.5s ease-out forwards;
-    opacity: 0; 
+ height: 65vh;
 }
 
 .container-texto > h1{
     font-size: 4.5em;
-    width: 125%;
+
     font-weight: 300;
 }
 
@@ -193,66 +170,8 @@ body {
 }
 
 
-@keyframes slideLeft {
-    from {
-        transform: translateX(-20%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-
-@keyframes slideRight {
-    from {
-        transform: translateX(20%);
-        opacity: 0;
-    }
-    to {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-@keyframes fadeInLetter {
-    from {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
 .container-texto > h2{
     font-size: 3em;
-}
-
-.segundo-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 70vh;
-    width: 90%;
-    margin: auto;
-    margin-top: 5%;   
-    overflow: hidden;
-
-}
-
-.containersegundo-texto{
-    width: 40%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    animation: slideLeft 1.5s ease-out forwards;
-    opacity: 0;
 }
 
 .containersegundo-texto > p{
@@ -271,37 +190,24 @@ body {
 }
 
 .silas-samuel{
-    width: 33%;
-    height: 91%;
-    animation: slideRight 1.5s ease-out forwards;
-    opacity: 0;
+    width: 35%;
+    height: 95%;
 }
 
 
 .container-img-texto{
     width: 100%;
     height: 90%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
 
 
 }
-
-.container-burocracia{
-    height: 85vh;
-    margin-top: 10%;
-}
-
 .text-burocracia{
     font-weight: 300;
     text-align: center;
     font-size: 4.5em;
 
 }
-
-
 
 .img-burocracia{
     width: 50%;
@@ -314,16 +220,10 @@ body {
     text-align: center;
 }
 
+
+
 /* FOOTER */
 
-.logo-icons-container{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 60%;
-    justify-content: space-between;
-    
-}
 
 /* icons  */
 
@@ -433,7 +333,7 @@ ul {
     background-color: #ff0000;
   } 
 
-#container-footer{
+  #container-footer{
     height: 20vh;
     margin-top: 100px;
     justify-content: center;
@@ -463,13 +363,7 @@ ul {
     font-weight: bold;
 }
 
-.hiperlinks-footer{
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-    margin: auto;
-    margin-top: 10px;
-}
+
 
 .hiperlink-footer{
     text-decoration: none;
@@ -477,39 +371,22 @@ ul {
     font-weight: bold;
 }
 
-.footer-header{
-    width: 20%;
-    display: flex;
-    justify-content: space-around;    
-}
 
 #copyright{
-    height: 80px;
+    height: 15vh;
     margin-top: 7%;
-    justify-content: center;
-    display: flex;
     font-family: "Poppins", sans-serif;
     color: rgb(121, 120, 120);
     font-weight: bold;
+   
 }
+
 
 #copyright > p{
     font-size: 13px;
 }
 
 .hiperlink-footer:hover{
-    color: rgb(46, 46, 46);
-}
-
-#wpp:hover{
-    color: rgb(46, 46, 46);
-}
-
-#face:hover{
-    color: rgb(46, 46, 46);
-}
-
-#insta:hover{
     color: rgb(46, 46, 46);
 }
 
@@ -521,7 +398,6 @@ ul {
 #nora:hover{
     color: rgb(46, 46, 46);
 }
-
 
 
 
@@ -579,182 +455,137 @@ ul {
     }
 
     .titulo-sobre{
-        font-size: 70px !important;
-        height: 70px;
-    }
-
-    #sobre{
-        margin-top: 100px;
-        height: 120px;
-    }
-
-    .primeiro-container{
-        height: 30vh;
-    }
-
-    #img-pai{
-        width: 160px !important;
+        text-align: center;
+        margin-top: 10%;
+        font-size: 80px;
     }
 
     .container-texto{
-        width: 42vw;
-        /* background-color: green; */
-        height: 20vh !important;
-    }
-
-    .container-texto > h1{
-        font-size: 25px;
-        width: 170px;
-    }
-    
-    .container-texto > p{
-        font-size: 8px;
-        width: 175px;
-    }
-
-    .silas-samuel{
-        width: 190px;
-        height: 210px;
-    }
-
-    .containersegundo-texto{
         display: flex;
-        justify-content: center;
-        flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
-    .containersegundo-texto > p{
-        font-size: 0.46em;
-        width: 150px;
-        text-align: center;
+    .container-texto > p{
+        width: 300px;
         
+    }
+
+    .primeiro-container{
+        height: 1100px;
+    }
+
+    .container-texto{
+        height: 40vh;
     }
 
     .containersegundo-texto > h1{
-        font-size: 25px;
-        text-align: center;
+      width: 100% !important;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-
-    .container{
-        width: 100%;
-        height: 20vh;
-        margin-right: 20px;
-        display: flex;
-        justify-content: space-evenly;
-        
-    }
-
-    .segundo-container{
-        height: 30vh;
-        width: 100%;
-    }
-
 
     .containersegundo-texto > p{
-        font-size: 8px;
+        width: 100% !important;
         text-align: center;
+      }
+
+    .segundo-container{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .silas-samuel{
+        width: 340px;
+        height: 340px !important;
+    }
+
+    #burocracia-img{
+        width: 400px !important;
+    }
+
+
+    #copyright{
+        width: 100% !important;
+    }
+
+    #container-footer{
+        width: 100%;
        
-    }
-
-    .p-burocracia{
-        width: 200px !important;
-    }
-
-    .text-burocracia{
-        font-size: 25px;
-    }
-
-    .container-img-texto, .container-burocracia{
-        height: 30vh;
-    }
-
-    .container-burocracia > h1{
-        font-size: 26.4px;
-        height: 20px;
+        height: 150px;
     }
     
-    .p-burocracia{
-        font-size: 8.8px;
-        width: 100px;
+    #conteudo-footer{
+        display: none;
     }
-
-    .img-burocracia{
-        width: 60%;
+    
+    .itens-footer{
+        width: 25%;
     }
-
-    /* FOOTER */
-
+    
     .logo-icons-container{
         display: none;
- 
-     }
-     
-     #footer-logo{
-        display: none;
-     }
-     
-     
-     .traco{
-        display: none;
-     } 
- 
-     footer{
-        height: 10px !important;
-     }
- 
-     .hiperlinks-footer{
-        display: none;
-     }
- 
-     .hiperlink-footer{
-        display: none;
-         
+    
      }
 
-     #container-footer{
-        margin-top: -10px !important;
-        height: 100px;
+     .traco{
+       display: none;
+     } 
+    
+    
+     .icons{
+        display: none;
      }
- 
- 
+    
+     #wpp{
+        display: none;
+      }
+    
+    
+    .hiperlink-footer{
+        display: none;
+    }
+    
      .footer-header{
         display: none;
      }
-
-
- 
-     #copyright{
-         text-align: center;
-         margin: auto;
-         margin-top: 35px;
-         height: 50px;
-         width: 408px;
+    
+     #footer-logo{
+      display: none;
      }
  
-     .text-copyright{
-         font-size: 13px !important;
-         height: 80px;
-         max-width: 480px !important;
-     }
-
-     .icon{
+    
+     .privacy-politics
+     {
         display: none;
+       
      }
-
+    
+     #textos-footer{
+         display: none;
+     }
+  
+    .text-copyright{
+        text-align: center;
+        font-size: 13px !important;
+        width: 400px !important;
+     }
+    
      #face{
         display: none;
      }
-
-
-  #insta{
-    display: none;
+    
+     #insta{
+        display: none;
      }
 
-     .icons{
-       display: none;
-     }
-     
- 
+
+    
 
 }

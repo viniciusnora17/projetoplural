@@ -207,9 +207,17 @@ body {
   }
   
   .item {
-    background-color: green;
     height: 35vh;
     width: 18vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .p-item{
+    color: #c4c4c4;
+    
   }
 
 .hiperlink-projetos{
@@ -223,7 +231,7 @@ body {
 
 #fotos-projetos{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     justify-content: space-evenly;
     align-items: center;
     display: flex
@@ -232,7 +240,7 @@ body {
 
 .title-oab{
     font-weight: 300;
-    font-size: 5em;
+    font-size: 4.5em;
 
 }
 
@@ -246,7 +254,7 @@ body {
 .title-biagio{
 
     font-weight: 300;
-    font-size: 75px;
+    font-size: 4.5em;
 }
 
  .container-construcao{
@@ -265,7 +273,7 @@ body {
 .title-piscina{
 
     font-weight: 300;
-    font-size: 75px;
+    font-size: 4.5em;
 }
 
 .title-oab, .title-biagio, .title-piscina {
@@ -284,11 +292,6 @@ body {
 /* FOOTER */
 
 .logo-icons-container{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 60%;
-    justify-content: space-between;
     
 }
 
@@ -420,13 +423,7 @@ ul {
     font-weight: bold;
 }
 
-.hiperlinks-footer{
-    display: flex;
-    justify-content: space-around;
-    width: 90%;
-    margin: auto;
-    margin-top: 10px;
-}
+
 
 .hiperlink-footer{
     text-decoration: none;
@@ -434,20 +431,14 @@ ul {
     font-weight: bold;
 }
 
-.footer-header{
-    width: 20%;
-    display: flex;
-    justify-content: space-around;    
-}
 
 #copyright{
-    height: 80px;
+    height: 15vh;
     margin-top: 7%;
-    justify-content: center;
-    display: flex;
     font-family: "Poppins", sans-serif;
     color: rgb(121, 120, 120);
     font-weight: bold;
+   
 }
 
 
@@ -516,100 +507,97 @@ ul {
         justify-content: space-around;
     }
 
-
-
-
-}
-
-@media (max-width: 1024px) {
-
-    #header{
+    .text-eng-arq{
+        font-size: 65px;
         width: 100%;
     }
-   
-    body{
-        max-width: 100%;
-        max-height: 100%;
+
+    .container-plural{
+        height: 40vh;
+    }
+
+    .title{
+        height: 50vh;
+    }
+
+    /* footer   */
+
+    #copyright{
+        width: 100% !important;
+    }
+
+    #container-footer{
+        width: 100%;
+       
+        height: 150px;
     }
     
+    #conteudo-footer{
+        display: none;
+    }
+    
+    .itens-footer{
+        width: 25%;
+    }
+    
+    .logo-icons-container{
+        display: none;
+    
+     }
+
+     .traco{
+       display: none;
+     } 
     
     
+     .icons{
+        display: none;
+     }
+    
+     #wpp{
+        display: none;
+      }
+    
+    
+    .hiperlink-footer{
+        display: none;
+    }
+    
+     .footer-header{
+        display: none;
+     }
+    
+     #footer-logo{
+      display: none;
+     }
+ 
+    
+     .privacy-politics
+     {
+        display: none;
+       
+     }
+    
+     #textos-footer{
+         display: none;
+     }
+  
+    .text-copyright{
+        text-align: center;
+        font-size: 13px !important;
+        width: 400px !important;
+     }
+    
+     #face{
+        display: none;
+     }
+    
+     #insta{
+        display: none;
+     }
+
+
+
+
 }
 
-
-
- @media (max-width: 1920px) and (min-width: 1600px) {
-    
-    .titulo-projeto, .titulo-plural{
-        font-size: 8em;
-    }
-
-    #fotos-projetos{
-        height: 95vh !important;
-    }
-
-    .title-oab{
-        top: 64%;
-        font-size: 70px;
-    }
-
-    .line{
-        top: 65%;
-        left: 4%;
-    }
-
-    .title-biagio{
-        top: 162%;
-        font-size: 70px;
-    }
-
-    .line2{
-        top: 163% !important;
-        left: 4%;
-    }
-
-    #sec{
-        /* background-color: green; */
-        height: 110vh;
-    }
-
-    .container-piso{
-        margin-top: 16%;
-        height: 78vh !important;
-    }
-
-    .line2{
-        top: 123%;
-    }
-
-    .container-torre{
-        margin-top: -4%;
-    }
-    
-    #sec3{
-        height: 100vh;
-        margin-top: 10%;
-    }
-
-    .container-piscina{
-        height: 80vh;
-    }
-
-    .container-piso{
-        /* background-color: green; */
-        height: 77.5vh !important;
-        width: 23%;
-        margin-bottom: 18%;
-    }
-
-    .title-piscina{
-        top: 289%;
-        font-size: 70px !important;
-    }
-
-    .line3{
-        top: 289%;
-        left: 4%;
-    }
-
-}
