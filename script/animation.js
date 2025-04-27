@@ -84,3 +84,19 @@ const counters = document.querySelectorAll(".counter");
   }, { threshold: 0.5 });
 
   observer.observe(document.querySelector(".counter-section"));
+
+
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault(); 
+
+      const target = document.querySelector(this.getAttribute('href'));
+
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });

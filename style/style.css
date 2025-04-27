@@ -512,7 +512,7 @@ ul {
 
     .text-carrossel{
         
-        font-size: 2px !important;
+        font-size: 44px !important;
         margin-top: -30px !important;
         font-weight: 100;
         width: 500px;
@@ -527,7 +527,7 @@ ul {
     }
 
     #carrossel{
-        height: 60vh !important;
+        height: 40vh !important;
     }
     
     /* SOBRE-NOS */
@@ -538,12 +538,12 @@ ul {
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 50vh;
+        height: 10vh;
 
     }
 
     .img-sobre-nos > img{
-        width: 200px !important;
+        width: 240p;
         height: 220px;
     }
 
@@ -552,6 +552,8 @@ ul {
         
        
     }
+
+
 
     .arq-eng{
         width: 140px !important;
@@ -590,7 +592,7 @@ ul {
     }
     
     #sobre-nos.aparecer{
-        height: 50vh;
+        height: 30vh;
     }
     /* ESCRITORIO */
 
